@@ -6,10 +6,9 @@
 //  Copyright © 2016年 AB. All rights reserved.
 //
 #import "TBMeVC.h"
-#import "TBHomeVC.h"
-#import "TBCircleVC.h"
-#import "TBCourseVC.h"
-#import "TBMessageVC.h"
+#import "TBBookListVC.h"
+#import "TBRankListVC.h"
+#import "TBSearchBookVC.h"
 #import "TBTabbarVC.h"
 #import "TBNavigationVC.h"
 
@@ -34,63 +33,55 @@ static TBTabbarVC* g_tabBarController = nil;
 
 +(TBTabbarVC*) setupTabBarController
 {
+    [[UITabBarItem appearance]setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:146/255.0 green:146/255.0 blue:146/255.0 alpha:1.0],NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    
+    [[UITabBarItem appearance]setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:188/255.0 green:7/255.0 blue:17/255.0 alpha:1.0],NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
+    
     NSMutableArray *array = [NSMutableArray array];
     
-    TBHomeVC *homeVC = [[TBHomeVC alloc]init];
-    homeVC.tabBarItem.title = @"首页";
-    UIImage *homeImage = [UIImage imageNamed:@"tb_teacher_normal"];
-    homeImage = [homeImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    homeVC.tabBarItem.image = homeImage;
+    TBBookListVC *bookListVC = [[TBBookListVC alloc]init];
+    bookListVC.tabBarItem.title = @"书架";
+    UIImage *bookListImage = [UIImage imageNamed:@"icon_shelf"];
+    bookListImage = [bookListImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    bookListVC.tabBarItem.image = bookListImage;
 
-    UIImage *homeSelectImage = [UIImage imageNamed:@"tb_teacher_select"];
+    UIImage *homeSelectImage = [UIImage imageNamed:@"icon_shelf_highlighted"];
     homeSelectImage = [homeSelectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    homeVC.tabBarItem.selectedImage = homeSelectImage;
-    TBNavigationVC *homeNav = [[TBNavigationVC alloc] initWithRootViewController:homeVC];
-    [array addObject:homeNav];
+    bookListVC.tabBarItem.selectedImage = homeSelectImage;
+    TBNavigationVC *bookListNav = [[TBNavigationVC alloc] initWithRootViewController:bookListVC];
+    [array addObject:bookListNav];
     
 
-    TBMessageVC *messageVC = [[TBMessageVC alloc]init];
-    homeVC.tabBarItem.title = @"消息";
-    UIImage *messageImage = [UIImage imageNamed:@"tb_message_normal"];
-    messageImage = [messageImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    messageVC.tabBarItem.image = messageImage;
+    TBRankListVC *rankListVC = [[TBRankListVC alloc]init];
+    rankListVC.tabBarItem.title = @"排行";
+    UIImage *rankListImage = [UIImage imageNamed:@"icon_rank"];
+    rankListImage = [rankListImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    rankListVC.tabBarItem.image = rankListImage;
     
-    UIImage *messageSelectImage = [UIImage imageNamed:@"tb_message_select"];
+    UIImage *messageSelectImage = [UIImage imageNamed:@"icon_rank_highlighted"];
     messageSelectImage = [messageSelectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    messageVC.tabBarItem.selectedImage = messageSelectImage;
-    TBNavigationVC *messageNav = [[TBNavigationVC alloc] initWithRootViewController:messageVC];
-    [array addObject:messageNav];
+    rankListVC.tabBarItem.selectedImage = messageSelectImage;
+    TBNavigationVC *rankListNav = [[TBNavigationVC alloc] initWithRootViewController:rankListVC];
+    [array addObject:rankListNav];
     
-    TBCircleVC *circleVC = [[TBCircleVC alloc]init];
-    circleVC.tabBarItem.title = @"圈子";
-    UIImage *circleImage = [UIImage imageNamed:@"tb_teacher_normal"];
+    TBSearchBookVC *searchBookVC = [[TBSearchBookVC alloc]init];
+    searchBookVC.tabBarItem.title = @"搜书";
+    UIImage *circleImage = [UIImage imageNamed:@"icon_search"];
     circleImage = [circleImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    circleVC.tabBarItem.image = circleImage;
+    searchBookVC.tabBarItem.image = circleImage;
     
-    UIImage *circleSelectImage = [UIImage imageNamed:@"tb_teacher_select"];
-    circleSelectImage = [circleSelectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    circleVC.tabBarItem.selectedImage = circleSelectImage;
-    TBNavigationVC *circleNav = [[TBNavigationVC alloc] initWithRootViewController:circleVC];
-    [array addObject:circleNav];
-    
-    
-    TBCourseVC *courseVC = [[TBCourseVC alloc]init];
-    courseVC.tabBarItem.title = @"课程";
-    UIImage *courseImage = [UIImage imageNamed:@"tb_class_normal"];
-    courseImage = [courseImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    courseVC.tabBarItem.image = courseImage;
-    UIImage *courseSelectImage = [UIImage imageNamed:@"tb_class_select"];
-    courseSelectImage = [courseSelectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    courseVC.tabBarItem.selectedImage = courseSelectImage;
-    TBNavigationVC *courseNav = [[TBNavigationVC alloc] initWithRootViewController:courseVC];
-    [array addObject:courseNav];
+    UIImage *searchBookImage = [UIImage imageNamed:@"icon_search_highlighted"];
+    searchBookImage = [searchBookImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    searchBookVC.tabBarItem.selectedImage = searchBookImage;
+    TBNavigationVC *searchBookNav = [[TBNavigationVC alloc] initWithRootViewController:searchBookVC];
+    [array addObject:searchBookNav];
     
     TBMeVC *meVC = [[TBMeVC alloc]init];
     meVC.tabBarItem.title = @"我";
-    UIImage *meImage = [UIImage imageNamed:@"tb_me_normal"];
+    UIImage *meImage = [UIImage imageNamed:@"icon_account"];
     meImage = [meImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     meVC.tabBarItem.image = meImage;
-    UIImage *meSelectImage = [UIImage imageNamed:@"tb_me_select"];
+    UIImage *meSelectImage = [UIImage imageNamed:@"icon_account_highlighted"];
     meSelectImage = [meSelectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     meVC.tabBarItem.selectedImage = meSelectImage;
     TBNavigationVC *meNav = [[TBNavigationVC alloc] initWithRootViewController:meVC];

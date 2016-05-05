@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 
-#define AtLeastIOS7 [LBUtils systemVersionAtLeastIOS7]
-#define AtLeastIOS8 [LBUtils systemVersionAtLeastIOS8]
-#define isScreen480 [LBUtils isScreenHeight480]
+#define AtLeastIOS7 [TBUtils systemVersionAtLeastIOS7]
+#define AtLeastIOS8 [TBUtils systemVersionAtLeastIOS8]
+#define isScreen480 [TBUtils isScreenHeight480]
 #define viewTopOffset (AtLeastIOS7?64:0)
 
 @interface TBUtils : NSObject

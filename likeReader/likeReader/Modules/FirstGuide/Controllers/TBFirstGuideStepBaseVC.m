@@ -48,12 +48,12 @@
     layout.minimumLineSpacing = itemSpace;
     layout.minimumInteritemSpacing = itemSpace;
     
-    _collectionView = [[UICollectionView alloc]initWithFrame:CGRectZero collectionViewLayout:layout];
-    _collectionView.backgroundColor = [UIColor clearColor];
-    _collectionView.delegate = self;
-    _collectionView.dataSource = self;
-    [self.view addSubview:_collectionView];
-    [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.collectionView setCollectionViewLayout:layout];
+    self.collectionView.backgroundColor = [UIColor clearColor];
+    self.collectionView.delegate = self;
+    self.collectionView.dataSource = self;
+    [self.view addSubview:self.collectionView];
+    [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.titleLab.mas_bottom).offset(40);
         make.height.mas_equalTo(collectionHeight);
         make.left.mas_equalTo(collectionleft);

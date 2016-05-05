@@ -9,6 +9,7 @@
 #import "TBNavigationVC.h"
 #import "TBFirstGuideVC.h"
 #import "AppDelegate.h"
+#import "JPEngine.h"
 
 @interface AppDelegate ()
 
@@ -19,19 +20,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
-    NSString *defaultAddress = [user objectForKey:KdefaultAddress];
-    NSString *defaultClass = [user objectForKey:KdefaultClass];
-    
-    
-//    if (!defaultAddress || !defaultClass) {
-//        TBFirstGuideVC *step1VC = [[TBFirstGuideVC alloc]init];
-//        self.window.rootViewController = step1VC;
-//    }else{
-        TBTabbarVC *tabbarVC = [TBTabbarVC tabBarController];
-        self.window.rootViewController = tabbarVC;
-//    }
-    
+//    [JPEngine startEngine];
+//    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlStr]] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+//        NSString *script = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+//        NSLog(@"%@",script);
+//        if (script) {
+//            [JPEngine evaluateScript:script];
+//        }
+//    }];
+
+    TBTabbarVC *tabbarVC = [TBTabbarVC tabBarController];
+    self.window.rootViewController = tabbarVC;
+
     
     [self.window makeKeyAndVisible];
     return YES;

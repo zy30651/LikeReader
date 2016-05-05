@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  JingHan
+
+  Created by ZY on 16/4/22.
+  Copyright © 2016年 AB. All rights reserved.
+*/
+
+/* Done(完成) */
+"general_done" = "Done";
+
+/* Cancel(取消) */
+"general_cancel" = "Cancel";
+
+/* Home(首页) */
+"general_home" = "Home";
