@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TBCell.h"
 
-@interface TBCellBookList : UITableViewCell
+@interface TBCellBookList : TBCell
 
-+(NSString *)cellId;
 
 @end

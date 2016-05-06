@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TBCellDecorator.h"
 
 typedef enum
 {
@@ -15,7 +16,7 @@ typedef enum
     cellLastInSection   = 2
 } TBCellPosition;
 
-@protocol TBCell <NSObject>
+@protocol TBCellDelegate <NSObject>
 
 @required
 /**
@@ -68,6 +69,32 @@ typedef enum
 
 extern NSString* const kTBCellDecoratorCheckBox;
 
-@interface TBCell : UITableViewCell
+@interface TBCell : UITableViewCell<TBCellDelegate>
+
+@property (nonatomic, weak, readonly) UIView* viewSeperatorLine;
+
+@property (nonatomic, assign) TBCellPosition position;
+@property (nonatomic, assign) BOOL showSeperator;
+@property (nonatomic, assign) BOOL showSeperatorForLastItem;
+@property (nonatomic, copy) NSMutableDictionary* decorators;
+
+-(CGFloat) heightForContent:(id)content;
+
+-(id<TBCellDecorator>)decoratorByType:(NSString*)key;
+-(void)setDecorator:(id<TBCellDecorator>)deco forType:(NSString*)key;
+
+/**
+ * Overiding point for initializing a cell in subclasses.
+ */
+-(void) initMe;
+
+/**
+ * Overiding point for laying out a cell in subclasses.
+ *
+ * This method is to be invoked by layoutSubviews. It is
+ * advised to overide this method if necessary instead of
+ * overiding the layoutSubviews directly.
+ */
+-(void) layoutMySubviews;
 
 @end
