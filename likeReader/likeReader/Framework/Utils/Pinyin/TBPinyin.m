@@ -5,8 +5,6 @@
 //  Created by ZY on 16/4/13.
 //  Copyright © 2016年 AB. All rights reserved.
 //
-#import "NSString+Add.h"
-#import "NSData+Add.h"
 #import "TBPinyin.h"
 
 @interface TBPinyin(){
@@ -44,9 +42,8 @@ static TBPinyin *instance = nil;
 
 - (NSDictionary *)map{
     if (!_map) {
-        NSError *err = nil;
         NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"TBPinyinMap" ofType:@"txt"]];
-        _map = [data JSONParsedWithError:&err];
+        _map = [data jsonValueDecoded];
     }
     return _map;
 }

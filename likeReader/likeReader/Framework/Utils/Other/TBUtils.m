@@ -26,58 +26,6 @@
     return showtimeNew;
 }
 
-+(CGSize) oneLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize
-{
-    CGFloat width = maxSize.width;
-    CGFloat height = maxSize.height;
-    if (0.1 > width)
-    {
-        width = 99999.99;
-    }
-    if (0.1 > height)
-    {
-        height = 99999.99;
-    }
-    CGSize refSize = CGSizeMake(width, height);
-    NSDictionary* attri = @{ NSFontAttributeName : font };
-    CGRect textRect = [text boundingRectWithSize:refSize
-                                         options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingTruncatesLastVisibleLine
-                                      attributes:attri
-                                         context:nil];
-    width = ceil(textRect.size.width);
-    height = ceil(textRect.size.height);
-    CGSize contentSize = CGSizeMake(width, height);
-    return contentSize;
-}
-
-+(CGSize) multiLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize
-{
-    CGFloat width = maxSize.width;
-    CGFloat height = maxSize.height;
-    if (0.1 > width)
-    {
-        width = 99999.99;
-    }
-    if (0.1 > height)
-    {
-        height = 99999.99;
-    }
-    CGSize refSize = CGSizeMake(width, height);
-    NSDictionary* attri = @{ NSFontAttributeName : font };
-    CGRect textRect = [text boundingRectWithSize:refSize
-                                         options:NSStringDrawingUsesLineFragmentOrigin
-                                      attributes:attri
-                                         context:nil];
-    if (0 >= textRect.size.width || 0 >= textRect.size.height)
-    {
-        return maxSize;
-    }
-    width = ceil(textRect.size.width);
-    height = ceil(textRect.size.height);
-    CGSize contentSize = CGSizeMake(width, height);
-    return contentSize;
-}
-
 + (UIBarButtonItem *)barButtonWithTitle:(NSString *)string withTarget:(id)target andSel:(SEL)sel
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -86,7 +34,7 @@
     button.exclusiveTouch = YES;
     UIFont *strFont = [UIFont boldSystemFontOfSize:16.0];
     button.titleLabel.font = strFont;
-    button.frame = CGRectMake(0, 0, [TBUtils oneLineTextSize:string withFont:strFont maxSize:CGSizeZero].width+10, button.titleLabel.font.pointSize+2);
+    button.frame = CGRectMake(0, 0, [string widthForFont:strFont] + 10, button.titleLabel.font.pointSize + 2);
     [button addTarget:target action:sel forControlEvents:UIControlEventTouchUpInside];
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }

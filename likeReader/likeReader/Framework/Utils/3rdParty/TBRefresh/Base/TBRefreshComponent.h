@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIScrollView+Add.h"
-#import "UIView+Add.h"
 #import "TBRefreshCommon.h"
 
 typedef NS_ENUM(NSInteger,TBRefreshState) {

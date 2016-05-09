@@ -22,8 +22,11 @@
 /** NavigationBarButton from Image */
 + (UIBarButtonItem *)barButtonWithImage:(UIImage *)img withTarget:(id)target andSel:(SEL)sel;
 
-+(CGSize) oneLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize;
-+(CGSize) multiLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize;
+/** YY框架里边有NSString的 分类方法里面有SizeForFont方法 */
+/*
+ +(CGSize) oneLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize;
+ +(CGSize) multiLineTextSize:(NSString*)text withFont:(UIFont*) font maxSize:(CGSize)maxSize;
+ */
 
 + (BOOL)systemVersionAtLeastIOS7;
 + (BOOL)systemVersionAtLeastIOS8;
