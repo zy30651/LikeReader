@@ -262,4 +262,21 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
     // Subclass must override this method if not every row is supposed to be editable
     return self.editable;
 }
+
+
+#pragma mark - utilities
+-(TBCellPosition)resolveCellPosition:(NSInteger)row
+                           withCount:(NSInteger)count
+{
+    
+    if (count - 1 == row)
+    {
+        return cellLastInSection;
+    }
+    if (0 == row)
+    {
+        return cellFirstInSection;
+    }
+    return cellMiddleInSection;
+}
 @end

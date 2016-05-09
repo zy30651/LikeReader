@@ -7,6 +7,7 @@
 //
 
 #import "TBViewController.h"
+#import "TBCell.h"
 
 @protocol TBTableViewControllerDelegate <TBViewControllerDelegate>
 
@@ -45,7 +46,7 @@
 
 -(void) initEditAnimations;
 
-//-(TBCellPosition)resolveCellPosition:(NSInteger)row
-//                           withCount:(NSInteger)count;
+-(TBCellPosition)resolveCellPosition:(NSInteger)row
+                           withCount:(NSInteger)count;
 
 @end

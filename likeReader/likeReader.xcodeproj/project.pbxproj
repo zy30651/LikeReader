@@ -122,6 +122,15 @@
 		1AFEB4FD1CE08A8500B6F22C /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB4AB1CE08A8500B6F22C /* YYWeakProxy.m */; };
 		1AFEB4FF1CE08B6B00B6F22C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEB4FE1CE08B6B00B6F22C /* libz.tbd */; };
 		1AFEB5011CE08B7000B6F22C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEB5001CE08B7000B6F22C /* libsqlite3.tbd */; };
+		1AFEB5031CE0925900B6F22C /* Z1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5021CE0925900B6F22C /* Z1-1.jpg */; };
+		1AFEB50D1CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */; };
+		1AFEB50E1CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */; };
+		1AFEB50F1CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */; };
+		1AFEB5101CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */; };
+		1AFEB5111CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */; };
+		1AFEB5121CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */; };
+		1AFEB5131CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */; };
+		1AFEB5141CE0926600B6F22C /* Z1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50C1CE0926600B6F22C /* Z1.jpg */; };
 		41B645681CC673AF000F9296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B645671CC673AF000F9296 /* main.m */; };
 		41B645761CC673AF000F9296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B645741CC673AF000F9296 /* LaunchScreen.storyboard */; };
 		41EAD7DC1CC7AB9800D3C0B9 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAD51D1CC7AB9700D3C0B9 /* IQBarButtonItem.m */; };
@@ -648,6 +657,15 @@
 		1AFEB4AC1CE08A8500B6F22C /* YYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKit.h; sourceTree = "<group>"; };
 		1AFEB4FE1CE08B6B00B6F22C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1AFEB5001CE08B7000B6F22C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1AFEB5021CE0925900B6F22C /* Z1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Z1-1.jpg"; sourceTree = "<group>"; };
+		1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　藏地密码1 第一章 从一张照片说起 .txt"; sourceTree = "<group>"; };
+		1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码1 第二章 紫麒麟传说 .txt"; sourceTree = "<group>"; };
+		1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码1 第三章 巴桑的回忆 .txt"; sourceTree = "<group>"; };
+		1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码1 第四章 横穿可可西里 .txt"; sourceTree = "<group>"; };
+		1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt"; sourceTree = "<group>"; };
+		1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码1 第六章 笔记之谜 .txt"; sourceTree = "<group>"; };
+		1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt"; sourceTree = "<group>"; };
+		1AFEB50C1CE0926600B6F22C /* Z1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z1.jpg; sourceTree = "<group>"; };
 		41B645631CC673AE000F9296 /* likeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = likeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B645671CC673AF000F9296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41B645751CC673AF000F9296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1784,6 +1802,21 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		1AFEB5041CE0926600B6F22C /* 藏地密码1 */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */,
+				1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */,
+				1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */,
+				1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */,
+				1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */,
+				1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */,
+				1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */,
+				1AFEB50C1CE0926600B6F22C /* Z1.jpg */,
+			);
+			path = "藏地密码1";
+			sourceTree = "<group>";
+		};
 		41B6455A1CC673AE000F9296 = {
 			isa = PBXGroup;
 			children = (
@@ -1818,6 +1851,8 @@
 		41B645661CC673AF000F9296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1AFEB5041CE0926600B6F22C /* 藏地密码1 */,
+				1AFEB5021CE0925900B6F22C /* Z1-1.jpg */,
 				41B645671CC673AF000F9296 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -3011,15 +3046,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFEB50F1CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt in Resources */,
+				1AFEB5131CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */,
 				41B645761CC673AF000F9296 /* LaunchScreen.storyboard in Resources */,
 				1A847A271CDB1D1300C70F03 /* InfoPlist.strings in Resources */,
+				1AFEB5031CE0925900B6F22C /* Z1-1.jpg in Resources */,
+				1AFEB50D1CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt in Resources */,
 				41EAD8251CC7AB9800D3C0B9 /* TBPinyinMap.txt in Resources */,
 				41EAD7DD1CC7AB9800D3C0B9 /* IQKeyboardManager.bundle in Resources */,
 				1A847A281CDB1D1300C70F03 /* Localizable.strings in Resources */,
+				1AFEB5101CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt in Resources */,
 				1A8479EE1CDB188900C70F03 /* Info.plist in Resources */,
+				1AFEB50E1CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt in Resources */,
+				1AFEB5121CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */,
 				1A847A121CDB1CD100C70F03 /* JSPatch.js in Resources */,
+				1AFEB5141CE0926600B6F22C /* Z1.jpg in Resources */,
 				1A8479F01CDB188F00C70F03 /* Assets.xcassets in Resources */,
 				41EAD8151CC7AB9800D3C0B9 /* TBRefresh.bundle in Resources */,
+				1AFEB5111CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
