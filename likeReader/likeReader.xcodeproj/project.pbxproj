@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2CF3C81CE451AD00D37CFF /* Record+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3BD1CE451AD00D37CFF /* Record+CoreDataProperties.m */; };
+		1A2CF3C91CE451AD00D37CFF /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3BF1CE451AD00D37CFF /* Record.m */; };
+		1A2CF3CA1CE451AD00D37CFF /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C11CE451AD00D37CFF /* Book+CoreDataProperties.m */; };
+		1A2CF3CB1CE451AD00D37CFF /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C31CE451AD00D37CFF /* Book.m */; };
+		1A2CF3CC1CE451AD00D37CFF /* Info+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C51CE451AD00D37CFF /* Info+CoreDataProperties.m */; };
+		1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C71CE451AD00D37CFF /* Info.m */; };
+		1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3D01CE4541200D37CFF /* BookManager.m */; };
 		1A679A511CDC2E28005FC2FF /* TBCellDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */; };
 		1A679A541CDC2E61005FC2FF /* TBCellCheckboxDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A531CDC2E61005FC2FF /* TBCellCheckboxDecorator.m */; };
 		1A679A711CDC7F05005FC2FF /* TBBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A5E1CDC7F05005FC2FF /* TBBookListVC.m */; };
@@ -122,15 +129,6 @@
 		1AFEB4FD1CE08A8500B6F22C /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEB4AB1CE08A8500B6F22C /* YYWeakProxy.m */; };
 		1AFEB4FF1CE08B6B00B6F22C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEB4FE1CE08B6B00B6F22C /* libz.tbd */; };
 		1AFEB5011CE08B7000B6F22C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEB5001CE08B7000B6F22C /* libsqlite3.tbd */; };
-		1AFEB5031CE0925900B6F22C /* Z1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5021CE0925900B6F22C /* Z1-1.jpg */; };
-		1AFEB50D1CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */; };
-		1AFEB50E1CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */; };
-		1AFEB50F1CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */; };
-		1AFEB5101CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */; };
-		1AFEB5111CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */; };
-		1AFEB5121CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */; };
-		1AFEB5131CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */; };
-		1AFEB5141CE0926600B6F22C /* Z1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEB50C1CE0926600B6F22C /* Z1.jpg */; };
 		41B645681CC673AF000F9296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B645671CC673AF000F9296 /* main.m */; };
 		41B645761CC673AF000F9296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B645741CC673AF000F9296 /* LaunchScreen.storyboard */; };
 		41EAD7DC1CC7AB9800D3C0B9 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAD51D1CC7AB9700D3C0B9 /* IQBarButtonItem.m */; };
@@ -435,6 +433,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A2CF3BC1CE451AD00D37CFF /* Record+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Record+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1A2CF3BD1CE451AD00D37CFF /* Record+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Record+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1A2CF3BE1CE451AD00D37CFF /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		1A2CF3BF1CE451AD00D37CFF /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		1A2CF3C01CE451AD00D37CFF /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1A2CF3C11CE451AD00D37CFF /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1A2CF3C21CE451AD00D37CFF /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		1A2CF3C31CE451AD00D37CFF /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		1A2CF3C41CE451AD00D37CFF /* Info+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Info+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1A2CF3C51CE451AD00D37CFF /* Info+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Info+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1A2CF3C61CE451AD00D37CFF /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		1A2CF3C71CE451AD00D37CFF /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		1A2CF3CF1CE4541200D37CFF /* BookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookManager.h; sourceTree = "<group>"; };
+		1A2CF3D01CE4541200D37CFF /* BookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookManager.m; sourceTree = "<group>"; };
 		1A679A4F1CDC2E28005FC2FF /* TBCellDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellDecorator.h; sourceTree = "<group>"; };
 		1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCellDecorator.m; sourceTree = "<group>"; };
 		1A679A521CDC2E61005FC2FF /* TBCellCheckboxDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellCheckboxDecorator.h; sourceTree = "<group>"; };
@@ -657,15 +669,6 @@
 		1AFEB4AC1CE08A8500B6F22C /* YYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKit.h; sourceTree = "<group>"; };
 		1AFEB4FE1CE08B6B00B6F22C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1AFEB5001CE08B7000B6F22C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1AFEB5021CE0925900B6F22C /* Z1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Z1-1.jpg"; sourceTree = "<group>"; };
-		1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000001 　　藏地密码1 第一章 从一张照片说起 .txt"; sourceTree = "<group>"; };
-		1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000002 　　藏地密码1 第二章 紫麒麟传说 .txt"; sourceTree = "<group>"; };
-		1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000003 　　藏地密码1 第三章 巴桑的回忆 .txt"; sourceTree = "<group>"; };
-		1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000004 　　藏地密码1 第四章 横穿可可西里 .txt"; sourceTree = "<group>"; };
-		1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt"; sourceTree = "<group>"; };
-		1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000006 　　藏地密码1 第六章 笔记之谜 .txt"; sourceTree = "<group>"; };
-		1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt"; sourceTree = "<group>"; };
-		1AFEB50C1CE0926600B6F22C /* Z1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z1.jpg; sourceTree = "<group>"; };
 		41B645631CC673AE000F9296 /* likeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = likeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B645671CC673AF000F9296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41B645751CC673AF000F9296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1316,6 +1319,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2CF3CE1CE4534200D37CFF /* ServerAccess */ = {
+			isa = PBXGroup;
+			children = (
+				1A2CF3CF1CE4541200D37CFF /* BookManager.h */,
+				1A2CF3D01CE4541200D37CFF /* BookManager.m */,
+			);
+			path = ServerAccess;
+			sourceTree = "<group>";
+		};
 		1A679A4E1CDC2E0A005FC2FF /* TBCellDecorators */ = {
 			isa = PBXGroup;
 			children = (
@@ -1444,6 +1456,18 @@
 			isa = PBXGroup;
 			children = (
 				1A679A771CDC7F2E005FC2FF /* Model.xcdatamodeld */,
+				1A2CF3BC1CE451AD00D37CFF /* Record+CoreDataProperties.h */,
+				1A2CF3BD1CE451AD00D37CFF /* Record+CoreDataProperties.m */,
+				1A2CF3BE1CE451AD00D37CFF /* Record.h */,
+				1A2CF3BF1CE451AD00D37CFF /* Record.m */,
+				1A2CF3C01CE451AD00D37CFF /* Book+CoreDataProperties.h */,
+				1A2CF3C11CE451AD00D37CFF /* Book+CoreDataProperties.m */,
+				1A2CF3C21CE451AD00D37CFF /* Book.h */,
+				1A2CF3C31CE451AD00D37CFF /* Book.m */,
+				1A2CF3C41CE451AD00D37CFF /* Info+CoreDataProperties.h */,
+				1A2CF3C51CE451AD00D37CFF /* Info+CoreDataProperties.m */,
+				1A2CF3C61CE451AD00D37CFF /* Info.h */,
+				1A2CF3C71CE451AD00D37CFF /* Info.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1802,21 +1826,6 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		1AFEB5041CE0926600B6F22C /* 藏地密码1 */ = {
-			isa = PBXGroup;
-			children = (
-				1AFEB5051CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt */,
-				1AFEB5061CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt */,
-				1AFEB5071CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt */,
-				1AFEB5081CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt */,
-				1AFEB5091CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt */,
-				1AFEB50A1CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt */,
-				1AFEB50B1CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt */,
-				1AFEB50C1CE0926600B6F22C /* Z1.jpg */,
-			);
-			path = "藏地密码1";
-			sourceTree = "<group>";
-		};
 		41B6455A1CC673AE000F9296 = {
 			isa = PBXGroup;
 			children = (
@@ -1836,6 +1845,7 @@
 		41B645651CC673AF000F9296 /* likeReader */ = {
 			isa = PBXGroup;
 			children = (
+				1A2CF3CE1CE4534200D37CFF /* ServerAccess */,
 				1A679A761CDC7F0F005FC2FF /* Model */,
 				1A679A5A1CDC7F05005FC2FF /* Roots */,
 				41EAD5161CC7AB9700D3C0B9 /* Framework */,
@@ -1851,8 +1861,6 @@
 		41B645661CC673AF000F9296 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AFEB5041CE0926600B6F22C /* 藏地密码1 */,
-				1AFEB5021CE0925900B6F22C /* Z1-1.jpg */,
 				41B645671CC673AF000F9296 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -3046,24 +3054,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFEB50F1CE0926600B6F22C /* 000003 　　藏地密码1 第三章 巴桑的回忆 .txt in Resources */,
-				1AFEB5131CE0926600B6F22C /* 000007 　　藏地密码1 第七章 帕巴拉神庙是否存在 .txt in Resources */,
 				41B645761CC673AF000F9296 /* LaunchScreen.storyboard in Resources */,
 				1A847A271CDB1D1300C70F03 /* InfoPlist.strings in Resources */,
-				1AFEB5031CE0925900B6F22C /* Z1-1.jpg in Resources */,
-				1AFEB50D1CE0926600B6F22C /* 000001 　　藏地密码1 第一章 从一张照片说起 .txt in Resources */,
 				41EAD8251CC7AB9800D3C0B9 /* TBPinyinMap.txt in Resources */,
 				41EAD7DD1CC7AB9800D3C0B9 /* IQKeyboardManager.bundle in Resources */,
 				1A847A281CDB1D1300C70F03 /* Localizable.strings in Resources */,
-				1AFEB5101CE0926600B6F22C /* 000004 　　藏地密码1 第四章 横穿可可西里 .txt in Resources */,
 				1A8479EE1CDB188900C70F03 /* Info.plist in Resources */,
-				1AFEB50E1CE0926600B6F22C /* 000002 　　藏地密码1 第二章 紫麒麟传说 .txt in Resources */,
-				1AFEB5121CE0926600B6F22C /* 000006 　　藏地密码1 第六章 笔记之谜 .txt in Resources */,
 				1A847A121CDB1CD100C70F03 /* JSPatch.js in Resources */,
-				1AFEB5141CE0926600B6F22C /* Z1.jpg in Resources */,
 				1A8479F01CDB188F00C70F03 /* Assets.xcassets in Resources */,
 				41EAD8151CC7AB9800D3C0B9 /* TBRefresh.bundle in Resources */,
-				1AFEB5111CE0926600B6F22C /* 000005 　　藏地密码1 第五章 史前冰川惊魂记 .txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3149,6 +3148,7 @@
 				41EAD8041CC7AB9800D3C0B9 /* SDWebImageManager.m in Sources */,
 				41EAD8E01CC7AB9800D3C0B9 /* ZXPDF417BarcodeRow.m in Sources */,
 				41EAD7F11CC7AB9800D3C0B9 /* MASCompositeConstraint.m in Sources */,
+				1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */,
 				1AFEB4F41CE08A8500B6F22C /* YYFileHash.m in Sources */,
 				41EAD8D31CC7AB9800D3C0B9 /* ZXPDF417BarcodeValue.m in Sources */,
 				1AFEB4E51CE08A8500B6F22C /* YYTextMagnifier.m in Sources */,
@@ -3170,6 +3170,7 @@
 				41EAD86F1CC7AB9800D3C0B9 /* ZXPerspectiveTransform.m in Sources */,
 				1AFEB4B81CE08A8500B6F22C /* NSString+YYAdd.m in Sources */,
 				1AFEB4F21CE08A8500B6F22C /* YYAsyncLayer.m in Sources */,
+				1A2CF3C81CE451AD00D37CFF /* Record+CoreDataProperties.m in Sources */,
 				41EAD8471CC7AB9800D3C0B9 /* ZXResultParser.m in Sources */,
 				41EAD8D61CC7AB9800D3C0B9 /* ZXPDF417CodewordDecoder.m in Sources */,
 				1AFEB4EE1CE08A8500B6F22C /* YYTextRunDelegate.m in Sources */,
@@ -3182,6 +3183,7 @@
 				41EAD8751CC7AB9800D3C0B9 /* ZXDimension.m in Sources */,
 				41EAD81C1CC7AB9800D3C0B9 /* mask.c in Sources */,
 				41EAD8011CC7AB9800D3C0B9 /* SDWebImageDecoder.m in Sources */,
+				1A2CF3CA1CE451AD00D37CFF /* Book+CoreDataProperties.m in Sources */,
 				41EAD89F1CC7AB9800D3C0B9 /* ZXAI01AndOtherAIs.m in Sources */,
 				1AFEB4C31CE08A8500B6F22C /* UIFont+YYAdd.m in Sources */,
 				41EAD8831CC7AB9800D3C0B9 /* ZXDataMatrixDetector.m in Sources */,
@@ -3203,6 +3205,7 @@
 				41EAD7EE1CC7AB9800D3C0B9 /* NBPhoneNumberDefines.m in Sources */,
 				41EAD7F21CC7AB9800D3C0B9 /* MASConstraint.m in Sources */,
 				41EAD8571CC7AB9800D3C0B9 /* ZXWifiResultParser.m in Sources */,
+				1A2CF3C91CE451AD00D37CFF /* Record.m in Sources */,
 				41EAD85D1CC7AB9800D3C0B9 /* ZXWhiteRectangleDetector.m in Sources */,
 				41EAD87F1CC7AB9800D3C0B9 /* ZXDataMatrixDataBlock.m in Sources */,
 				41EAD8CC1CC7AB9800D3C0B9 /* ZXUPCEANReader.m in Sources */,
@@ -3255,6 +3258,7 @@
 				41EAD8651CC7AB9800D3C0B9 /* ZXBoolArray.m in Sources */,
 				41EAD8AB1CC7AB9800D3C0B9 /* ZXBitArrayBuilder.m in Sources */,
 				41EAD8341CC7AB9800D3C0B9 /* ZXAbstractDoCoMoResultParser.m in Sources */,
+				1A2CF3CB1CE451AD00D37CFF /* Book.m in Sources */,
 				41EAD7DE1CC7AB9800D3C0B9 /* IQKeyboardManager.m in Sources */,
 				41EAD8231CC7AB9800D3C0B9 /* TBUtils.m in Sources */,
 				1AFEB4C71CE08A8500B6F22C /* UIScrollView+YYAdd.m in Sources */,
@@ -3287,6 +3291,7 @@
 				41EAD8C41CC7AB9800D3C0B9 /* ZXMultiFormatUPCEANReader.m in Sources */,
 				41EAD7EC1CC7AB9800D3C0B9 /* NBPhoneMetaData.m in Sources */,
 				41EAD8841CC7AB9800D3C0B9 /* ZXDataMatrixASCIIEncoder.m in Sources */,
+				1A2CF3CC1CE451AD00D37CFF /* Info+CoreDataProperties.m in Sources */,
 				41EAD8E21CC7AB9800D3C0B9 /* ZXPDF417ErrorCorrection.m in Sources */,
 				41EAD8CD1CC7AB9800D3C0B9 /* ZXUPCEANWriter.m in Sources */,
 				41EAD83A1CC7AB9800D3C0B9 /* ZXCalendarParsedResult.m in Sources */,
@@ -3370,6 +3375,7 @@
 				1A847A111CDB1CD100C70F03 /* JPEngine.m in Sources */,
 				41EAD8A01CC7AB9800D3C0B9 /* ZXAI01decoder.m in Sources */,
 				1AFEB4C81CE08A8500B6F22C /* UITableView+YYAdd.m in Sources */,
+				1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */,
 				41EAD8DB1CC7AB9800D3C0B9 /* ZXPDF417ScanningDecoder.m in Sources */,
 				41EAD8021CC7AB9800D3C0B9 /* SDWebImageDownloader.m in Sources */,
 				41EAD7E71CC7AB9800D3C0B9 /* NBAsYouTypeFormatter.m in Sources */,

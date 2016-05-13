@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
-    <entity name="Book" syncable="YES">
-        <attribute name="chapterCounter" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="chapterTitle" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imageCover" optional="YES" attributeType="Date" syncable="YES"/>
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="autor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgSrc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Info" representedClassName="Info" syncable="YES">
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="autor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgSrc" optional="YES" attributeType="String" defaultValueString="nil" syncable="YES"/>
+        <attribute name="isShow" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Book" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Book" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Info" positionX="-63" positionY="27" width="128" height="75"/>
+        <element name="Record" positionX="-54" positionY="36" width="128" height="150"/>
     </elements>
 </model>
