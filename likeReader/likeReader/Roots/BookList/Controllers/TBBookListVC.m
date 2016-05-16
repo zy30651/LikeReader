@@ -27,7 +27,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     TBCellBookList *cell = [tableView dequeueReusableCellWithIdentifier:[TBCellBookList cellId]];
-    return nil;
+    return cell;
 }
 
 #pragma mark - Action

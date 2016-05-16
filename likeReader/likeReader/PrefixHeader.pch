@@ -26,6 +26,7 @@
 #import "Masonry.h"
 #import "TBUtils.h"
 #import "TBCommon.h"
+#import "category+Add.h"
 
 #endif
 

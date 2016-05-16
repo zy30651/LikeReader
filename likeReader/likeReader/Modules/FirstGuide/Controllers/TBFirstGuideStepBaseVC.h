@@ -17,7 +17,6 @@ typedef void (^TBBlockNext)();
 {
     NSString *_tempStr;
 }
-@property (nonatomic , strong) UICollectionView *collectionView;
 @property (nonatomic , strong) UILabel *titleLab;
 @property (nonatomic, strong) NSArray *dataArray;
 @property (nonatomic, copy) TBBlockNext onNext;

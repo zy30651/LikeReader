@@ -1,0 +1,82 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CYLDeallocBlockExecutor (1.0.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - INTULocationManager (4.2.0)
+  - IQKeyboardManager (4.0.2)
+  - JSPatch (1.0):
+    - JSPatch/Core (= 1.0)
+  - JSPatch/Core (1.0)
+  - libPhoneNumber-iOS (0.8.12)
+  - libqrencode (3.4.2)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - MKNetworkKit (0.85):
+    - Reachability (~> 3.0)
+  - Reachability (3.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - YYKit (1.0.5):
+    - YYKit/no-arc (= 1.0.5)
+  - YYKit/no-arc (1.0.5)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CYLDeallocBlockExecutor
+  - FMDB
+  - INTULocationManager
+  - IQKeyboardManager
+  - JSPatch
+  - libPhoneNumber-iOS
+  - libqrencode
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MKNetworkKit
+  - Reachability
+  - SDWebImage
+  - YYKit
+  - ZXingObjC
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CYLDeallocBlockExecutor: 13dc997661100052ed24bb918fcc65e8535af59d
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  INTULocationManager: 73f8254b3d05c897c56bb13c190e5b7c648c0998
+  IQKeyboardManager: 2341089c4ae25fa2fa82ce356a259fcd267dc6b6
+  JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
+  libPhoneNumber-iOS: 3f1889b70403cf7848c0e4136780a0d0aef9016d
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MKNetworkKit: 1171bfac5c3a1cd7fea9a027f29359e1b4cab705
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYKit: f2654fe525de2283648db957bddb37ddd8e06549
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+PODFILE CHECKSUM: 83269d5cf1a6504219e7bef183a2e260a4809465
+
+COCOAPODS: 1.0.0

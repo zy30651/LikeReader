@@ -1,0 +1,27 @@
+
+platform :ios  , ‘8.0’ 
+
+
+use_frameworks!
+
+target ‘likeReader’ do
+ 
+pod 'libPhoneNumber-iOS'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'YYKit'
+pod 'FMDB'
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'CYLDeallocBlockExecutor'
+pod 'MKNetworkKit'
+pod 'MJRefresh'
+pod 'IQKeyboardManager'
+pod 'INTULocationManager'
+pod 'JSPatch'
+pod 'libqrencode'
+pod 'ZXingObjC'
+pod 'Reachability'
+
+
+end

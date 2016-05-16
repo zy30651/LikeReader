@@ -1,1 +1,0 @@
-﻿{"ranks":[{"php":"qidian_rank","name":"起点榜"},{"php":"zongheng_rank","name":"纵横榜"},{"php":"chuangshi_rank","name":"创世榜"},{"php":"17k_rank","name":"17K榜"},{"php":"recommend_rank","name":"推荐榜"},{"php":"new_book_rank","name":"新书榜"},{"php":"end_book_rank","name":"全本榜"},{"php":"word_rank","name":"字数榜"}]}

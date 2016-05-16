@@ -1,0 +1,6 @@
+framework module Pods_likeReader {
+  umbrella header "Pods-likeReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
