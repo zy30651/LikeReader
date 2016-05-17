@@ -22,6 +22,7 @@ pod 'JSPatch'
 pod 'libqrencode'
 pod 'ZXingObjC'
 pod 'Reachability'
+pod 'FDFullscreenPopGesture'
 
 
 end

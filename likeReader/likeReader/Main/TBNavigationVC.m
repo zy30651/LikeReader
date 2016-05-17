@@ -16,12 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.interactivePopGestureRecognizer.delegate = self;
-}
-//iOS7,默认应该就支持右滑返回
--(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
-    return self.childViewControllers.count > 1;
 }
 
 @end

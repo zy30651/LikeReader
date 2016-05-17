@@ -35,6 +35,7 @@
 		1A847A471CDB3C9400C70F03 /* TBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A411CDB3C9400C70F03 /* TBTableViewController.m */; };
 		1A847A481CDB3C9400C70F03 /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A431CDB3C9400C70F03 /* TBViewController.m */; };
 		1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A4A1CDB3CA600C70F03 /* TBCell.m */; };
+		1A89FBBF1CEB26F3007AC154 /* countrycode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A89FBBE1CEB26F3007AC154 /* countrycode.plist */; };
 		1AE7223C1CE9CC19002EDD08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722321CE9CC19002EDD08 /* InfoPlist.strings */; };
 		1AE7223D1CE9CC19002EDD08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722341CE9CC19002EDD08 /* Localizable.strings */; };
 		1AE7223E1CE9CC19002EDD08 /* TBI18nCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE722371CE9CC19002EDD08 /* TBI18nCountry.m */; };
@@ -118,6 +119,7 @@
 		1A847A431CDB3C9400C70F03 /* TBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
 		1A847A491CDB3CA600C70F03 /* TBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCell.h; sourceTree = "<group>"; };
 		1A847A4A1CDB3CA600C70F03 /* TBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCell.m; sourceTree = "<group>"; };
+		1A89FBBE1CEB26F3007AC154 /* countrycode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countrycode.plist; sourceTree = "<group>"; };
 		1AE722331CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AE722351CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1AE722361CE9CC19002EDD08 /* TBI18nCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBI18nCountry.h; sourceTree = "<group>"; };
@@ -392,6 +394,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		1A89FBBD1CEB26B1007AC154 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				1A89FBBE1CEB26F3007AC154 /* countrycode.plist */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
 		1AE722311CE9CC19002EDD08 /* i18n */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,7 +475,6 @@
 				1A679A5A1CDC7F05005FC2FF /* Roots */,
 				41EAD5161CC7AB9700D3C0B9 /* Framework */,
 				41EAD7BD1CC7AB9800D3C0B9 /* Main */,
-				41EAD7C41CC7AB9800D3C0B9 /* Model */,
 				41EAD7C51CC7AB9800D3C0B9 /* Modules */,
 				41EAD9331CC7B28200D3C0B9 /* Resource */,
 				41B645661CC673AF000F9296 /* Supporting Files */,
@@ -485,8 +494,8 @@
 			isa = PBXGroup;
 			children = (
 				1A847A051CDB1C5900C70F03 /* Framework */,
-				41EAD7B81CC7AB9800D3C0B9 /* Views */,
 				41EAD5191CC7AB9700D3C0B9 /* Utils */,
+				41EAD7B81CC7AB9800D3C0B9 /* Views */,
 				41EAD5171CC7AB9700D3C0B9 /* Controllers */,
 			);
 			path = Framework;
@@ -503,6 +512,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE722481CE9CDD9002EDD08 /* Category+Add */,
+				1A89FBBD1CEB26B1007AC154 /* Country */,
 				1AE722311CE9CC19002EDD08 /* i18n */,
 				41EAD5C01CC7AB9700D3C0B9 /* Other */,
 				41EAD5C41CC7AB9700D3C0B9 /* Pinyin */,
@@ -570,13 +580,6 @@
 				41EAD7C31CC7AB9800D3C0B9 /* TBTabbarVC.m */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		41EAD7C41CC7AB9800D3C0B9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		41EAD7C51CC7AB9800D3C0B9 /* Modules */ = {
@@ -712,6 +715,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B645761CC673AF000F9296 /* LaunchScreen.storyboard in Resources */,
+				1A89FBBF1CEB26F3007AC154 /* countrycode.plist in Resources */,
 				1AE7223D1CE9CC19002EDD08 /* Localizable.strings in Resources */,
 				41EAD8251CC7AB9800D3C0B9 /* TBPinyinMap.txt in Resources */,
 				1A8479EE1CDB188900C70F03 /* Info.plist in Resources */,
@@ -949,6 +953,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zy.likeReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -965,6 +970,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zy.likeReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

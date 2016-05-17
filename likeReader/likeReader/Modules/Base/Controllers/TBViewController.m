@@ -59,20 +59,13 @@
 {
     if ([self.navigationController.viewControllers objectAtIndex:0] != self)
     {
-        self.navigationItem.leftBarButtonItem = [TBUtils barButtonWithImage:[UIImage imageNamed:@"frame_navi_back_button"]
+        self.navigationItem.leftBarButtonItem = [TBUtils barButtonWithImage:[UIImage imageNamed:@"navbar_back"]
                                                                  withTarget:self
                                                                      andSel:@selector(actionBack:)];
     }
-    if (AtLeastIOS7)
-    {
-        NSDictionary* dicAttr = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
-        [self.navigationController.navigationBar setTitleTextAttributes:dicAttr];
-    }
-    else
-    {
-        [UIApplication sharedApplication].statusBarHidden = NO;
-        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-    }
+    
+    NSDictionary* dicAttr = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
+    [self.navigationController.navigationBar setTitleTextAttributes:dicAttr];
     
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:188/255.0 green:7/255.0 blue:17/255.0 alpha:1.0];
     [self initNavigationBar];

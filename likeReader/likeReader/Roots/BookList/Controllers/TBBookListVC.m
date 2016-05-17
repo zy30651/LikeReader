@@ -39,6 +39,9 @@
     //移除书架并删除该小说;
     //下载本书--可以选择多本小说，同时下载;
     //查看详情--跳转到详情页
+    UIViewController *vc = [[UIViewController alloc]init];
+    vc.view.backgroundColor = [UIColor yellowColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

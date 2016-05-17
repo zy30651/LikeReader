@@ -15,6 +15,7 @@
 #define viewTopOffset (AtLeastIOS7?64:0)
 
 @interface TBUtils : NSObject
+
 /** CGFloat秒转化为String Example: [61 -> 01:01] */
 + (NSString *)convertTime:(CGFloat)second;
 /** NavigationBarButton from Title */
@@ -35,4 +36,11 @@
 + (long long)timeIntervalWithDate:(NSDate *)date;
 
 - (BOOL)isValidateEmail;
+/** 获取文件大小 */
++ (CGFloat) getFileSize:(NSString *)path;
+/** 等比例缩放 */
++ (UIImage *)imageByScalingToMaxSize:(UIImage *)sourceImage;
++ (NSInteger)systemVersionBigVersion;
+//[self classSwizzle:self Method:@selector(drawRect:) withMethod:@selector(override_drawRect:)];
+- (void)classSwizzle:(Class)c Method:(SEL)origSel withMethod:(SEL)overrideSel;
 @end

@@ -92,4 +92,105 @@
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     return [self isValidateWithPredicstring:emailRegex];
 }
+
++ (CGFloat) getFileSize:(NSString *)path
+{
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    float filesize = -1.0;
+    if ([fileManager fileExistsAtPath:path]) {
+        NSDictionary *fileDic = [fileManager attributesOfItemAtPath:path error:nil];//获取文件的属性
+        unsigned long long size = [[fileDic objectForKey:NSFileSize] longLongValue];
+        filesize = 1.0*size/1024/1024;
+        return filesize;
+    }
+    return filesize;
+}
+
++ (UIImage *)imageByScalingToMaxSize:(UIImage *)sourceImage
+{
+    if (sourceImage.size.width < 640.0f) return sourceImage;
+    CGFloat btWidth = 0.0f;
+    CGFloat btHeight = 0.0f;
+    if (sourceImage.size.width > sourceImage.size.height) {
+        btHeight = 640.0f;
+        btWidth = sourceImage.size.width * (640.0f / sourceImage.size.height);
+    } else {
+        btWidth = 640.0f;
+        btHeight = sourceImage.size.height * (640.0f / sourceImage.size.width);
+    }
+    CGSize targetSize = CGSizeMake(btWidth, btHeight);
+    return [self imageByScalingAndCroppingForSourceImage:sourceImage targetSize:targetSize];
+}
+
++ (UIImage *)imageByScalingAndCroppingForSourceImage:(UIImage *)sourceImage targetSize:(CGSize)targetSize
+{
+    UIImage *newImage = nil;
+    CGSize imageSize = sourceImage.size;
+    CGFloat width = imageSize.width;
+    CGFloat height = imageSize.height;
+    CGFloat targetWidth = targetSize.width;
+    CGFloat targetHeight = targetSize.height;
+    CGFloat scaleFactor = 0.0;
+    CGFloat scaledWidth = targetWidth;
+    CGFloat scaledHeight = targetHeight;
+    CGPoint thumbnailPoint = CGPointMake(0.0,0.0);
+    if (CGSizeEqualToSize(imageSize, targetSize) == NO)
+    {
+        CGFloat widthFactor = targetWidth / width;
+        CGFloat heightFactor = targetHeight / height;
+        
+        if (widthFactor > heightFactor)
+            scaleFactor = widthFactor; // scale to fit height
+        else
+            scaleFactor = heightFactor; // scale to fit width
+        scaledWidth  = width * scaleFactor;
+        scaledHeight = height * scaleFactor;
+        
+        // center the image
+        if (widthFactor > heightFactor)
+        {
+            thumbnailPoint.y = (targetHeight - scaledHeight) * 0.5;
+        }
+        else
+            if (widthFactor < heightFactor)
+            {
+                thumbnailPoint.x = (targetWidth - scaledWidth) * 0.5;
+            }
+    }
+    UIGraphicsBeginImageContext(targetSize); // this will crop
+    CGRect thumbnailRect = CGRectZero;
+    thumbnailRect.origin = thumbnailPoint;
+    thumbnailRect.size.width  = scaledWidth;
+    thumbnailRect.size.height = scaledHeight;
+    
+    [sourceImage drawInRect:thumbnailRect];
+    
+    newImage = UIGraphicsGetImageFromCurrentImageContext();
+    if(newImage == nil) NSLog(@"could not scale image");
+    
+    //pop the context to get back to the default
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
+
++ (NSInteger)systemVersionBigVersion
+{
+    NSString *systemVersion = [UIDevice currentDevice].systemVersion;
+    NSRange bigVersionRange = [systemVersion rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@"."]];
+    NSString* bigVersionStr = [systemVersion substringToIndex:bigVersionRange.location];
+    NSInteger bigVersion = [bigVersionStr integerValue];
+    return bigVersion;
+}
+
+//[self classSwizzle:self Method:@selector(drawRect:) withMethod:@selector(override_drawRect:)];
+- (void)classSwizzle:(Class)c Method:(SEL)origSel withMethod:(SEL)overrideSel{
+    Method origMethod = class_getInstanceMethod(c, origSel);
+    Method overrideMethod= class_getInstanceMethod(c, overrideSel);
+    if(class_addMethod(c, origSel, method_getImplementation(overrideMethod), method_getTypeEncoding(overrideMethod)))
+        class_replaceMethod(c,overrideSel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
+    else
+        method_exchangeImplementations(origMethod,overrideMethod);
+    
+}
 @end

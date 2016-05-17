@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>countryCode</key>
+		<string>0093</string>
+		<key>countryName</key>
+		<string>Afghanistan AF</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00355</string>
+		<key>countryName</key>
+		<string>Albania AL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00213</string>
+		<key>countryName</key>
+		<string>Algeria DZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00376</string>
+		<key>countryName</key>
+		<string>Andorra AD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00244</string>
+		<key>countryName</key>
+		<string>Angola AO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001264</string>
+		<key>countryName</key>
+		<string>Anguilla AI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001268</string>
+		<key>countryName</key>
+		<string>Antigua and Barbuda AG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0054</string>
+		<key>countryName</key>
+		<string>Argentina AR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00374</string>
+		<key>countryName</key>
+		<string>Armenia AM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00247</string>
+		<key>countryName</key>
+		<string>Ascension </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0061</string>
+		<key>countryName</key>
+		<string>Australia AU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0043</string>
+		<key>countryName</key>
+		<string>Austria AT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00994</string>
+		<key>countryName</key>
+		<string>Azerbaijan AZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001242</string>
+		<key>countryName</key>
+		<string>Bahamas BS</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00973</string>
+		<key>countryName</key>
+		<string>Bahrain BH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00880</string>
+		<key>countryName</key>
+		<string>Bangladesh BD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001246</string>
+		<key>countryName</key>
+		<string>Barbados BB</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00375</string>
+		<key>countryName</key>
+		<string>Belarus BY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0032</string>
+		<key>countryName</key>
+		<string>Belgium BE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00501</string>
+		<key>countryName</key>
+		<string>Belize BZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00229</string>
+		<key>countryName</key>
+		<string>Benin BJ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001441</string>
+		<key>countryName</key>
+		<string>Bermuda Is. BM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00591</string>
+		<key>countryName</key>
+		<string>Bolivia BO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00267</string>
+		<key>countryName</key>
+		<string>Botswana BW</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0055</string>
+		<key>countryName</key>
+		<string>Brazil BR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00673</string>
+		<key>countryName</key>
+		<string>Brunei BN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00359</string>
+		<key>countryName</key>
+		<string>Bulgaria BG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00226</string>
+		<key>countryName</key>
+		<string>Burkina-faso BF</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0095</string>
+		<key>countryName</key>
+		<string>Burma MM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00257</string>
+		<key>countryName</key>
+		<string>Burundi BI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00237</string>
+		<key>countryName</key>
+		<string>Cameroon CM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001</string>
+		<key>countryName</key>
+		<string>Canada CA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001345</string>
+		<key>countryName</key>
+		<string>Cayman Is. </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00236</string>
+		<key>countryName</key>
+		<string>Central African Republic CF</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00235</string>
+		<key>countryName</key>
+		<string>Chad TD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0056</string>
+		<key>countryName</key>
+		<string>Chile CL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0086</string>
+		<key>countryName</key>
+		<string>China CN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0057</string>
+		<key>countryName</key>
+		<string>Colombia CO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00242</string>
+		<key>countryName</key>
+		<string>Congo CG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00682</string>
+		<key>countryName</key>
+		<string>Cook Is. CK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00506</string>
+		<key>countryName</key>
+		<string>Costa Rica CR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0053</string>
+		<key>countryName</key>
+		<string>Cuba CU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00357</string>
+		<key>countryName</key>
+		<string>Cyprus CY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00420</string>
+		<key>countryName</key>
+		<string>Czech CS</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00420</string>
+		<key>countryName</key>
+		<string>Czech Republic CZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0045</string>
+		<key>countryName</key>
+		<string>Denmark DK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00253</string>
+		<key>countryName</key>
+		<string>Djibouti DJ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001890</string>
+		<key>countryName</key>
+		<string>Dominica Rep. DO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00593</string>
+		<key>countryName</key>
+		<string>Ecuador EC</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0020</string>
+		<key>countryName</key>
+		<string>Egypt EG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00503</string>
+		<key>countryName</key>
+		<string>EI Salvador SV</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00372</string>
+		<key>countryName</key>
+		<string>Estonia EE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00251</string>
+		<key>countryName</key>
+		<string>Ethiopia ET</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00679</string>
+		<key>countryName</key>
+		<string>Fiji FJ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00358</string>
+		<key>countryName</key>
+		<string>Finland FI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0033</string>
+		<key>countryName</key>
+		<string>France FR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00594</string>
+		<key>countryName</key>
+		<string>French Guiana GF</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00689</string>
+		<key>countryName</key>
+		<string>French Polynesia PF</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00241</string>
+		<key>countryName</key>
+		<string>Gabon GA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00220</string>
+		<key>countryName</key>
+		<string>Gambia GM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00995</string>
+		<key>countryName</key>
+		<string>Georgia GE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0049</string>
+		<key>countryName</key>
+		<string>Germany DE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00233</string>
+		<key>countryName</key>
+		<string>Ghana GH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00350</string>
+		<key>countryName</key>
+		<string>Gibraltar GI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0030</string>
+		<key>countryName</key>
+		<string>Greece GR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001809</string>
+		<key>countryName</key>
+		<string>Grenada GD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001671</string>
+		<key>countryName</key>
+		<string>Guam GU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00502</string>
+		<key>countryName</key>
+		<string>Guatemala GT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00224</string>
+		<key>countryName</key>
+		<string>Guinea GN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00592</string>
+		<key>countryName</key>
+		<string>Guyana GY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00509</string>
+		<key>countryName</key>
+		<string>Haiti HT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00504</string>
+		<key>countryName</key>
+		<string>Honduras HN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00852</string>
+		<key>countryName</key>
+		<string>Hongkong HK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0036</string>
+		<key>countryName</key>
+		<string>Hungary HU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00354</string>
+		<key>countryName</key>
+		<string>Iceland IS</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0091</string>
+		<key>countryName</key>
+		<string>India IN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0062</string>
+		<key>countryName</key>
+		<string>Indonesia ID</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0098</string>
+		<key>countryName</key>
+		<string>Iran IR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00964</string>
+		<key>countryName</key>
+		<string>Iraq IQ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00353</string>
+		<key>countryName</key>
+		<string>Ireland IE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00972</string>
+		<key>countryName</key>
+		<string>Israel IL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0039</string>
+		<key>countryName</key>
+		<string>Italy IT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00225</string>
+		<key>countryName</key>
+		<string>Ivory Coast </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001876</string>
+		<key>countryName</key>
+		<string>Jamaica JM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0081</string>
+		<key>countryName</key>
+		<string>Japan JP</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00962</string>
+		<key>countryName</key>
+		<string>Jordan JO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00855</string>
+		<key>countryName</key>
+		<string>Kampuchea (Cambodia ) KH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00327</string>
+		<key>countryName</key>
+		<string>Kazakstan KZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00254</string>
+		<key>countryName</key>
+		<string>Kenya KE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0082</string>
+		<key>countryName</key>
+		<string>Korea KR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00965</string>
+		<key>countryName</key>
+		<string>Kuwait KW</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00331</string>
+		<key>countryName</key>
+		<string>Kyrgyzstan KG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00856</string>
+		<key>countryName</key>
+		<string>Laos LA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00371</string>
+		<key>countryName</key>
+		<string>Latvia LV</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00961</string>
+		<key>countryName</key>
+		<string>Lebanon LB</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00266</string>
+		<key>countryName</key>
+		<string>Lesotho LS</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00231</string>
+		<key>countryName</key>
+		<string>Liberia LR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00218</string>
+		<key>countryName</key>
+		<string>Libya LY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00423</string>
+		<key>countryName</key>
+		<string>Liechtenstein LI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00370</string>
+		<key>countryName</key>
+		<string>Lithuania LT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00352</string>
+		<key>countryName</key>
+		<string>Luxembourg LU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00853</string>
+		<key>countryName</key>
+		<string>Macao MO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00261</string>
+		<key>countryName</key>
+		<string>Madagascar MG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00265</string>
+		<key>countryName</key>
+		<string>Malawi MW</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0060</string>
+		<key>countryName</key>
+		<string>Malaysia MY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00960</string>
+		<key>countryName</key>
+		<string>Maldives MV</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00223</string>
+		<key>countryName</key>
+		<string>Mali ML</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00356</string>
+		<key>countryName</key>
+		<string>Malta MT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001670</string>
+		<key>countryName</key>
+		<string>Mariana Is </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00596</string>
+		<key>countryName</key>
+		<string>Martinique </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00230</string>
+		<key>countryName</key>
+		<string>Mauritius MU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0052</string>
+		<key>countryName</key>
+		<string>Mexico MX</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00373</string>
+		<key>countryName</key>
+		<string>Moldova, Republic of MD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00377</string>
+		<key>countryName</key>
+		<string>Monaco MC</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00976</string>
+		<key>countryName</key>
+		<string>Mongolia MN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001664</string>
+		<key>countryName</key>
+		<string>Montserrat Is MS</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00212</string>
+		<key>countryName</key>
+		<string>Morocco MA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00258</string>
+		<key>countryName</key>
+		<string>Mozambique MZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00264</string>
+		<key>countryName</key>
+		<string>Namibia NA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00674</string>
+		<key>countryName</key>
+		<string>Nauru NR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00977</string>
+		<key>countryName</key>
+		<string>Nepal NP</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00599</string>
+		<key>countryName</key>
+		<string>Netherlands Antilles </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0031</string>
+		<key>countryName</key>
+		<string>Netherlands NL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0064</string>
+		<key>countryName</key>
+		<string>New Zealand NZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00505</string>
+		<key>countryName</key>
+		<string>Nicaragua NI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00227</string>
+		<key>countryName</key>
+		<string>Niger NE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00234</string>
+		<key>countryName</key>
+		<string>Nigeria NG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00850</string>
+		<key>countryName</key>
+		<string>North Korea KP</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0047</string>
+		<key>countryName</key>
+		<string>Norway NO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00968</string>
+		<key>countryName</key>
+		<string>Oman OM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0092</string>
+		<key>countryName</key>
+		<string>Pakistan PK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00970</string>
+		<key>countryName</key>
+		<string>Palestine BL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00507</string>
+		<key>countryName</key>
+		<string>Panama PA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00675</string>
+		<key>countryName</key>
+		<string>Papua New Cuinea PG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00595</string>
+		<key>countryName</key>
+		<string>Paraguay PY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0051</string>
+		<key>countryName</key>
+		<string>Peru PE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0063</string>
+		<key>countryName</key>
+		<string>Philippines PH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0048</string>
+		<key>countryName</key>
+		<string>Poland PL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00351</string>
+		<key>countryName</key>
+		<string>Portugal PT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001787</string>
+		<key>countryName</key>
+		<string>Puerto Rico PR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00974</string>
+		<key>countryName</key>
+		<string>Qatar QA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00225</string>
+		<key>countryName</key>
+		<string>Republic of Ivory Coast KT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00262</string>
+		<key>countryName</key>
+		<string>Reunion </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0040</string>
+		<key>countryName</key>
+		<string>Romania RO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>007</string>
+		<key>countryName</key>
+		<string>Russia RU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001784</string>
+		<key>countryName</key>
+		<string>Saint Vincent VC</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00684</string>
+		<key>countryName</key>
+		<string>Samoa Eastern </string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00685</string>
+		<key>countryName</key>
+		<string>Samoa Western</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00378</string>
+		<key>countryName</key>
+		<string>San Marino SM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00239</string>
+		<key>countryName</key>
+		<string>Sao Tome and Principe ST</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00966</string>
+		<key>countryName</key>
+		<string>Saudi Arabia SA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00221</string>
+		<key>countryName</key>
+		<string>Senegal SN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00248</string>
+		<key>countryName</key>
+		<string>Seychelles SC</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00232</string>
+		<key>countryName</key>
+		<string>Sierra Leone SL</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0065</string>
+		<key>countryName</key>
+		<string>Singapore SG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00421</string>
+		<key>countryName</key>
+		<string>Slovakia SK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00386</string>
+		<key>countryName</key>
+		<string>Slovenia SI</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00677</string>
+		<key>countryName</key>
+		<string>Solomon Is SB</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00252</string>
+		<key>countryName</key>
+		<string>Somali SO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0027</string>
+		<key>countryName</key>
+		<string>South Africa ZA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0034</string>
+		<key>countryName</key>
+		<string>Spain ES</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0094</string>
+		<key>countryName</key>
+		<string>Sri Lanka LK</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001758</string>
+		<key>countryName</key>
+		<string>St.Lucia LC</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00249</string>
+		<key>countryName</key>
+		<string>Sudan SD</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00597</string>
+		<key>countryName</key>
+		<string>Suriname SR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00268</string>
+		<key>countryName</key>
+		<string>Swaziland SZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0046</string>
+		<key>countryName</key>
+		<string>Sweden SE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0041</string>
+		<key>countryName</key>
+		<string>Switzerland CH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00963</string>
+		<key>countryName</key>
+		<string>Syria SY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00886</string>
+		<key>countryName</key>
+		<string>Taiwan TW</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00992</string>
+		<key>countryName</key>
+		<string>Tajikstan TJ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00255</string>
+		<key>countryName</key>
+		<string>Tanzania TZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0066</string>
+		<key>countryName</key>
+		<string>Thailand TH</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00228</string>
+		<key>countryName</key>
+		<string>Togo TG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00676</string>
+		<key>countryName</key>
+		<string>Tonga TO</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001809</string>
+		<key>countryName</key>
+		<string>Trinidad and Tobago TT</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00216</string>
+		<key>countryName</key>
+		<string>Tunisia TN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0090</string>
+		<key>countryName</key>
+		<string>Turkey TR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00993</string>
+		<key>countryName</key>
+		<string>Turkmenistan TM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00256</string>
+		<key>countryName</key>
+		<string>Uganda UG</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00380</string>
+		<key>countryName</key>
+		<string>Ukraine UA</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00971</string>
+		<key>countryName</key>
+		<string>United Arab Emirates AE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0044</string>
+		<key>countryName</key>
+		<string>United Kingdom GB</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>001</string>
+		<key>countryName</key>
+		<string>United States of America US</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00598</string>
+		<key>countryName</key>
+		<string>Uruguay UY</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00233</string>
+		<key>countryName</key>
+		<string>Uzbekistan UZ</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0058</string>
+		<key>countryName</key>
+		<string>Venezuela VE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>0084</string>
+		<key>countryName</key>
+		<string>Vietnam VN</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00967</string>
+		<key>countryName</key>
+		<string>Yemen YE</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00381</string>
+		<key>countryName</key>
+		<string>Yugoslavia YU</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00243</string>
+		<key>countryName</key>
+		<string>Zaire ZR</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00260</string>
+		<key>countryName</key>
+		<string>Zambia ZM</string>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>00263</string>
+		<key>countryName</key>
+		<string>Zimbabwe ZW</string>
+	</dict>
+</array>
+</plist>
