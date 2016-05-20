@@ -9,6 +9,23 @@
 #import <Foundation/Foundation.h>
 
 
+#define UIColorFromRGB_dec(r,g,b) [UIColor colorWithRed:r/256.f green:g/256.f blue:b/256.f alpha:1.f]
+
+#define UIColorFromRGBA_dec(r,g,b,a) [UIColor colorWithRed:r/256.f green:g/256.f blue:b/256.f alpha:a]
+
+#define UIColorFromRGB_hex(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:1.0]
+
+
+#define UIColorFromRGBA_hex(rgbValue, alphaValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0x0000FF))/255.0 \
+alpha:alphaValue]
+
 #define AtLeastIOS7 [TBUtils systemVersionAtLeastIOS7]
 #define AtLeastIOS8 [TBUtils systemVersionAtLeastIOS8]
 #define isScreen480 [TBUtils isScreenHeight480]
@@ -35,12 +52,17 @@
 + (BOOL)moreThanScreenHeight568;
 + (long long)timeIntervalWithDate:(NSDate *)date;
 
-- (BOOL)isValidateEmail;
 /** 获取文件大小 */
 + (CGFloat) getFileSize:(NSString *)path;
 /** 等比例缩放 */
 + (UIImage *)imageByScalingToMaxSize:(UIImage *)sourceImage;
 + (NSInteger)systemVersionBigVersion;
-//[self classSwizzle:self Method:@selector(drawRect:) withMethod:@selector(override_drawRect:)];
-- (void)classSwizzle:(Class)c Method:(SEL)origSel withMethod:(SEL)overrideSel;
+
+
+// country code
+- (NSDictionary *)countryCodeInfoFromCountryNumber:(NSString *)number;
+- (NSDictionary *)countryCodeInfoFromCurrentCarrier;
+
+/** 获得视频时长 */
+- (CGFloat)getVideoDurationBySecondWithString:(NSString *)path;
 @end

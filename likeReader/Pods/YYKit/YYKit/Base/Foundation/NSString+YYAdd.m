@@ -197,7 +197,6 @@ YYSYNTH_DUMMY_CLASS(NSString_YYAdd)
     free(buf);
     return result;
 }
-
 - (CGSize)sizeForFont:(UIFont *)font size:(CGSize)size mode:(NSLineBreakMode)lineBreakMode {
     CGSize result;
     if (!font) font = [UIFont systemFontOfSize:12];
@@ -210,7 +209,7 @@ YYSYNTH_DUMMY_CLASS(NSString_YYAdd)
             attr[NSParagraphStyleAttributeName] = paragraphStyle;
         }
         CGRect rect = [self boundingRectWithSize:size
-                                         options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
+                                         options:NSStringDrawingUsesLineFragmentOrigin
                                       attributes:attr context:nil];
         result = rect.size;
     } else {

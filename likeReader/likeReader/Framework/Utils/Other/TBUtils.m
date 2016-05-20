@@ -7,6 +7,9 @@
 //
 
 #import "TBUtils.h"
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <AVFoundation/AVFoundation.h>
 
 @implementation TBUtils
 
@@ -82,16 +85,6 @@
     return timeMillis;
 }
 
-- (BOOL)isValidateWithPredicstring:(NSString *)predicStr{
-    NSPredicate *predic = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", predicStr];
-    return [predic evaluateWithObject:self];
-}
-
-- (BOOL)isValidateEmail
-{
-    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
-    return [self isValidateWithPredicstring:emailRegex];
-}
 
 + (CGFloat) getFileSize:(NSString *)path
 {
@@ -183,14 +176,84 @@
     return bigVersion;
 }
 
-//[self classSwizzle:self Method:@selector(drawRect:) withMethod:@selector(override_drawRect:)];
-- (void)classSwizzle:(Class)c Method:(SEL)origSel withMethod:(SEL)overrideSel{
-    Method origMethod = class_getInstanceMethod(c, origSel);
-    Method overrideMethod= class_getInstanceMethod(c, overrideSel);
-    if(class_addMethod(c, origSel, method_getImplementation(overrideMethod), method_getTypeEncoding(overrideMethod)))
-        class_replaceMethod(c,overrideSel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
-    else
-        method_exchangeImplementations(origMethod,overrideMethod);
+
+#define ZYDefaultCountryCode @"0086"
+#define ZYDefaultCountryName @"CN"
+
+- (NSString *)displayCountryCodeWithCountryCode:(NSString *)countryCode countryName:(NSString *)countryName {
+    if ([countryCode length] > 2 && [countryName length] >= 2) {
+        return [NSString stringWithFormat:@"+%@ ",[countryCode substringFromIndex:2]];
+    }
+    return countryCode;
+}
+
+- (NSDictionary *)countryCodeInfoFromCountryNumber:(NSString *)number{
+    if (number.length==0) {
+        return nil;
+    }
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"countrycode" ofType:@"plist"];
+    NSArray *countryCodesArray = [[NSArray alloc] initWithContentsOfFile:path];
+    
+    NSMutableDictionary *namesCodes = [NSMutableDictionary new];
+    for (NSDictionary *obj in countryCodesArray) {
+        if ([[obj valueForKeyPath:@"countryCode"] isEqualToString:number]) {
+            namesCodes = [NSMutableDictionary dictionaryWithDictionary:obj];
+            [namesCodes setValue:[self displayCountryCodeWithCountryCode:[obj valueForKeyPath:@"countryCode"] countryName:[obj valueForKeyPath:@"countryName"]]
+                      forKeyPath:@"displayCode"];
+            return namesCodes;
+        }
+    }
+    return nil;
     
 }
+- (NSDictionary *)countryCodeInfoFromCurrentCarrier {
+    NSString *currentCountryCode = nil;
+    NSString *currentCountryName = nil;
+    
+    CTTelephonyNetworkInfo *networkInfo = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *carrier = networkInfo.subscriberCellularProvider;
+    NSString *iso = carrier.isoCountryCode; //ISO 3166-1 表示，用户的电话服务提供者的国家代码 例如“cn”
+    
+    //TODO: 判断cell网络是否可用
+    if (iso) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"countrycode" ofType:@"plist"];
+        NSArray *countryCodesArray = [[NSArray alloc] initWithContentsOfFile:path];
+        
+        NSMutableDictionary *namesCodes = [NSMutableDictionary new];
+        for (NSDictionary *obj in countryCodesArray) {
+            [namesCodes setValue:[obj valueForKey:@"countryCode"] forKey:[obj valueForKey:@"countryName"]];
+        }
+        for (NSString *name in [namesCodes allKeys]){
+            if([name hasSuffix:[iso uppercaseString]]){
+                currentCountryCode = [namesCodes valueForKey:name];
+                currentCountryName = [iso uppercaseString];
+            }
+        }
+    }
+    
+    if (!currentCountryCode) {
+        currentCountryCode = ZYDefaultCountryCode;
+        currentCountryName = ZYDefaultCountryName;
+    }
+    
+    NSDictionary *infoDic = @{@"countryCode" : currentCountryCode,
+                              @"countryName" : currentCountryName,
+                              @"displayCode" : [self displayCountryCodeWithCountryCode:currentCountryCode countryName:currentCountryName]
+                              };
+    
+    return infoDic;
+}
+
+/** 获得视频时长 */
+- (CGFloat)getVideoDurationBySecondWithString:(NSString *)path{
+    NSDictionary *opts = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO]
+                                                     forKey:AVURLAssetPreferPreciseDurationAndTimingKey];
+    AVURLAsset *urlAsset = [AVURLAsset URLAssetWithURL:[NSURL URLWithString:path] options:opts];
+    float second = 0;
+    second = urlAsset.duration.value/urlAsset.duration.timescale;
+    return second;
+}
+
+
 @end

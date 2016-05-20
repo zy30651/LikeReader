@@ -37,4 +37,15 @@
     return ms;
 }
 
+
+- (BOOL)isValidateWithPredicstring:(NSString *)predicStr{
+    NSPredicate *predic = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", predicStr];
+    return [predic evaluateWithObject:self];
+}
+
+- (BOOL)isValidateEmail
+{
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    return [self isValidateWithPredicstring:emailRegex];
+}
 @end

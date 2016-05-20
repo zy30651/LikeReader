@@ -23,6 +23,6 @@ pod 'libqrencode'
 pod 'ZXingObjC'
 pod 'Reachability'
 pod 'FDFullscreenPopGesture'
-
+pod 'UMengSocialCOM'
 
 end

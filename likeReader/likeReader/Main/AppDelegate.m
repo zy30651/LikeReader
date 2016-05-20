@@ -10,6 +10,7 @@
 #import "TBFirstGuideVC.h"
 #import "AppDelegate.h"
 #import "JPEngine.h"
+#import "UMSocial.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
+//    这是JSPatch，热修复。暂时关闭。需要服务器提供一个JS脚本.
 //    [JPEngine startEngine];
 //    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlStr]] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
 //        NSString *script = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];

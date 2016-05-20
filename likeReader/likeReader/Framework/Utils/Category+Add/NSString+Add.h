@@ -29,4 +29,9 @@
  */
 - (NSString *)firstLowerCaseLetterString;
 
+
+
+- (BOOL)isValidateWithPredicstring:(NSString *)predicStr;
+
+- (BOOL)isValidateEmail;
 @end

@@ -14,6 +14,7 @@
 		1A2CF3CC1CE451AD00D37CFF /* Info+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C51CE451AD00D37CFF /* Info+CoreDataProperties.m */; };
 		1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C71CE451AD00D37CFF /* Info.m */; };
 		1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3D01CE4541200D37CFF /* BookManager.m */; };
+		1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A468B621CEC374200E1C59E /* NSURL+Add.m */; };
 		1A679A511CDC2E28005FC2FF /* TBCellDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */; };
 		1A679A541CDC2E61005FC2FF /* TBCellCheckboxDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A531CDC2E61005FC2FF /* TBCellCheckboxDecorator.m */; };
 		1A679A711CDC7F05005FC2FF /* TBBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A5E1CDC7F05005FC2FF /* TBBookListVC.m */; };
@@ -80,6 +81,8 @@
 		1A2CF3C71CE451AD00D37CFF /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
 		1A2CF3CF1CE4541200D37CFF /* BookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookManager.h; sourceTree = "<group>"; };
 		1A2CF3D01CE4541200D37CFF /* BookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookManager.m; sourceTree = "<group>"; };
+		1A468B611CEC374200E1C59E /* NSURL+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Add.h"; sourceTree = "<group>"; };
+		1A468B621CEC374200E1C59E /* NSURL+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Add.m"; sourceTree = "<group>"; };
 		1A679A4F1CDC2E28005FC2FF /* TBCellDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellDecorator.h; sourceTree = "<group>"; };
 		1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCellDecorator.m; sourceTree = "<group>"; };
 		1A679A521CDC2E61005FC2FF /* TBCellCheckboxDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellCheckboxDecorator.h; sourceTree = "<group>"; };
@@ -427,6 +430,8 @@
 				1AE722511CE9D2DF002EDD08 /* UIScrollView+Add.m */,
 				1AE722531CE9D352002EDD08 /* UIView+Add.h */,
 				1AE722541CE9D352002EDD08 /* UIView+Add.m */,
+				1A468B611CEC374200E1C59E /* NSURL+Add.h */,
+				1A468B621CEC374200E1C59E /* NSURL+Add.m */,
 			);
 			path = "Category+Add";
 			sourceTree = "<group>";
@@ -470,10 +475,10 @@
 		41B645651CC673AF000F9296 /* likeReader */ = {
 			isa = PBXGroup;
 			children = (
-				1A2CF3CE1CE4534200D37CFF /* ServerAccess */,
 				1A679A761CDC7F0F005FC2FF /* Model */,
-				1A679A5A1CDC7F05005FC2FF /* Roots */,
+				1A2CF3CE1CE4534200D37CFF /* ServerAccess */,
 				41EAD5161CC7AB9700D3C0B9 /* Framework */,
+				1A679A5A1CDC7F05005FC2FF /* Roots */,
 				41EAD7BD1CC7AB9800D3C0B9 /* Main */,
 				41EAD7C51CC7AB9800D3C0B9 /* Modules */,
 				41EAD9331CC7B28200D3C0B9 /* Resource */,
@@ -803,6 +808,7 @@
 				1A847A451CDB3C9400C70F03 /* TBCollectionViewController.m in Sources */,
 				1A679A791CDC7F2E005FC2FF /* Model.xcdatamodeld in Sources */,
 				41EAD8271CC7AB9800D3C0B9 /* UIDevice+deviceString.m in Sources */,
+				1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */,
 				1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */,
 				41EAD9111CC7AB9800D3C0B9 /* TBFirstGuideCollectionViewCell.m in Sources */,
 				1AE722521CE9D2DF002EDD08 /* UIScrollView+Add.m in Sources */,
