@@ -37,6 +37,7 @@
 		1A847A481CDB3C9400C70F03 /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A431CDB3C9400C70F03 /* TBViewController.m */; };
 		1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A4A1CDB3CA600C70F03 /* TBCell.m */; };
 		1A89FBBF1CEB26F3007AC154 /* countrycode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A89FBBE1CEB26F3007AC154 /* countrycode.plist */; };
+		1AD7394A1CF30FAB006C71F7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD739491CF30FAB006C71F7 /* AdSupport.framework */; };
 		1AE7223C1CE9CC19002EDD08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722321CE9CC19002EDD08 /* InfoPlist.strings */; };
 		1AE7223D1CE9CC19002EDD08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722341CE9CC19002EDD08 /* Localizable.strings */; };
 		1AE7223E1CE9CC19002EDD08 /* TBI18nCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE722371CE9CC19002EDD08 /* TBI18nCountry.m */; };
@@ -123,6 +124,7 @@
 		1A847A491CDB3CA600C70F03 /* TBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCell.h; sourceTree = "<group>"; };
 		1A847A4A1CDB3CA600C70F03 /* TBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCell.m; sourceTree = "<group>"; };
 		1A89FBBE1CEB26F3007AC154 /* countrycode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countrycode.plist; sourceTree = "<group>"; };
+		1AD739491CF30FAB006C71F7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1AE722331CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AE722351CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1AE722361CE9CC19002EDD08 /* TBI18nCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBI18nCountry.h; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD7394A1CF30FAB006C71F7 /* AdSupport.framework in Frameworks */,
 				1AFEB5011CE08B7000B6F22C /* libsqlite3.tbd in Frameworks */,
 				1AFEB4FF1CE08B6B00B6F22C /* libz.tbd in Frameworks */,
 				1A8479FE1CDB1C2F00C70F03 /* CoreGraphics.framework in Frameworks */,
@@ -652,6 +655,7 @@
 		95FC16C1A28DCDFB2B2253D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AD739491CF30FAB006C71F7 /* AdSupport.framework */,
 				93BF1AA36C421731F46B7338 /* Pods_likeReader.framework */,
 			);
 			name = Frameworks;

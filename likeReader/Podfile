@@ -24,5 +24,6 @@ pod 'ZXingObjC'
 pod 'Reachability'
 pod 'FDFullscreenPopGesture'
 pod 'UMengSocialCOM'
+pod 'UMengAnalytics'
 
 end

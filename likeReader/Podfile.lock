@@ -35,6 +35,7 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
+  - UMengAnalytics (4.0.0)
   - UMengSocialCOM (5.1.0)
   - YYKit (1.0.5):
     - YYKit/no-arc (= 1.0.5)
@@ -59,6 +60,7 @@ DEPENDENCIES:
   - MKNetworkKit
   - Reachability
   - SDWebImage
+  - UMengAnalytics
   - UMengSocialCOM
   - YYKit
   - ZXingObjC
@@ -79,10 +81,11 @@ SPEC CHECKSUMS:
   MKNetworkKit: 1171bfac5c3a1cd7fea9a027f29359e1b4cab705
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics: 3bb802b73e815fa9ec4ef384c2fce8de9e1ec62b
   UMengSocialCOM: 8fa4732b03757161aaa8aab97be7d980adb9ccdb
   YYKit: f2654fe525de2283648db957bddb37ddd8e06549
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: bbc08f567583e800fc23426a0b3a5f09877c447e
+PODFILE CHECKSUM: 6f009f01dfe6fd7cffc74e82c3f64e4324af3ab6
 
 COCOAPODS: 1.0.0
