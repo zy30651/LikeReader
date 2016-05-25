@@ -18,6 +18,7 @@
 #import <sys/sysctl.h>
 #import <net/if.h>
 #import <net/if_dl.h>
+#import "INTULocationManager.h"
 
 @interface AppDelegate ()
 
@@ -41,14 +42,25 @@
 //            [JPEngine evaluateScript:script];
 //        }
 //    }];
+
+    //这是INTULocationManager框架，有更新，具体用法没有变化
+    INTULocationManager *mgr = [INTULocationManager sharedInstance];
+    [mgr requestLocationWithDesiredAccuracy:INTULocationAccuracyBlock
+                                    timeout:3.0
+                       delayUntilAuthorized:YES
+                                      block:^(CLLocation *currentLocation, INTULocationAccuracy achievedAccuracy, INTULocationStatus status) {
+                                          if (status == INTULocationStatusSuccess) {
+                                              
+                                          }else if (status == INTULocationStatusTimedOut){
+                                              
+                                          }else{
+                                              
+                                          }
+                                      }];
     
-    //添加#import <AdSupport/AdSupport.h>
-    //#import "SvUDIDTools.h"
-    //#import <sys/socket.h>
-    //#import <sys/sysctl.h>
-    //#import <net/if.h>
-    //#import <net/if_dl.h>
-    //#import <UMMobClick/MobClick.h>
+    
+    
+    
     
     UMConfigInstance.appKey = UMENG_APPKEY;
     [MobClick startWithConfigure:UMConfigInstance];
@@ -57,6 +69,7 @@
     TBTabbarVC *tabbarVC = [TBTabbarVC tabBarController];
     self.window.rootViewController = tabbarVC;
 
+    
     
     [self.window makeKeyAndVisible];
     return YES;

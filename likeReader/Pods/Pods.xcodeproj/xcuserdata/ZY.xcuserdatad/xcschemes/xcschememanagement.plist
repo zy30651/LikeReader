@@ -74,6 +74,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UAProgressView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -117,11 +122,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36A1AAFF8AB057510B0ADFC8575FE654</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>3A7FA4954F932FC5768A0509BD9CAE96</key>
 		<dict>
 			<key>primary</key>
@@ -137,7 +137,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>53970CBD8857F1C789ED1C44E3F825C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5AF1C612F4CDA296FC4C82D9BD0BD25D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>616F7E685608293C4A0F00A50F23E840</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -147,27 +157,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D2BB6E47DF29041758B20A51B880AC9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>9933B2A112D2E91ABCB927E605CD42CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A86DDCD56EED76E9838508E42366D690</key>
+		<key>9DCE9CFCF2FEE8561C5C942FD914E47F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8E240B3AB454283095B8E35A3258062</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A9A83F63385AA43314397B8DD375464B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ADB40FB9D3E902E4EFC4DAD946B45731</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -183,6 +188,11 @@
 			<true/>
 		</dict>
 		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4160919A8D76DA91761948B7E4E9DD0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '53970CBD8857F1C789ED1C44E3F825C1'
-               BlueprintName = 'ZXingObjC'
+               BlueprintIdentifier = 'F4160919A8D76DA91761948B7E4E9DD0'
+               BlueprintName = 'UAProgressView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ZXingObjC.framework'>
+               BuildableName = 'UAProgressView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

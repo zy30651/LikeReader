@@ -38,6 +38,8 @@
 		1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A4A1CDB3CA600C70F03 /* TBCell.m */; };
 		1A89FBBF1CEB26F3007AC154 /* countrycode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A89FBBE1CEB26F3007AC154 /* countrycode.plist */; };
 		1AD7394A1CF30FAB006C71F7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD739491CF30FAB006C71F7 /* AdSupport.framework */; };
+		1AE31D511CF54F660046339D /* CLLocation+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE31D501CF54F660046339D /* CLLocation+Add.m */; };
+		1AE31D551CF57DFE0046339D /* TBImagePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE31D541CF57DFE0046339D /* TBImagePopUpView.m */; };
 		1AE7223C1CE9CC19002EDD08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722321CE9CC19002EDD08 /* InfoPlist.strings */; };
 		1AE7223D1CE9CC19002EDD08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AE722341CE9CC19002EDD08 /* Localizable.strings */; };
 		1AE7223E1CE9CC19002EDD08 /* TBI18nCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE722371CE9CC19002EDD08 /* TBI18nCountry.m */; };
@@ -125,6 +127,10 @@
 		1A847A4A1CDB3CA600C70F03 /* TBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCell.m; sourceTree = "<group>"; };
 		1A89FBBE1CEB26F3007AC154 /* countrycode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countrycode.plist; sourceTree = "<group>"; };
 		1AD739491CF30FAB006C71F7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1AE31D4F1CF54F660046339D /* CLLocation+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Add.h"; sourceTree = "<group>"; };
+		1AE31D501CF54F660046339D /* CLLocation+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+Add.m"; sourceTree = "<group>"; };
+		1AE31D531CF57DFE0046339D /* TBImagePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBImagePopUpView.h; sourceTree = "<group>"; };
+		1AE31D541CF57DFE0046339D /* TBImagePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBImagePopUpView.m; sourceTree = "<group>"; };
 		1AE722331CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AE722351CE9CC19002EDD08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1AE722361CE9CC19002EDD08 /* TBI18nCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBI18nCountry.h; sourceTree = "<group>"; };
@@ -408,6 +414,15 @@
 			path = Country;
 			sourceTree = "<group>";
 		};
+		1AE31D521CF57DE00046339D /* TBImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1AE31D531CF57DFE0046339D /* TBImagePopUpView.h */,
+				1AE31D541CF57DFE0046339D /* TBImagePopUpView.m */,
+			);
+			path = TBImageView;
+			sourceTree = "<group>";
+		};
 		1AE722311CE9CC19002EDD08 /* i18n */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,6 +450,8 @@
 				1AE722541CE9D352002EDD08 /* UIView+Add.m */,
 				1A468B611CEC374200E1C59E /* NSURL+Add.h */,
 				1A468B621CEC374200E1C59E /* NSURL+Add.m */,
+				1AE31D4F1CF54F660046339D /* CLLocation+Add.h */,
+				1AE31D501CF54F660046339D /* CLLocation+Add.m */,
 			);
 			path = "Category+Add";
 			sourceTree = "<group>";
@@ -571,6 +588,7 @@
 		41EAD7B81CC7AB9800D3C0B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1AE31D521CF57DE00046339D /* TBImageView */,
 				1A679A4E1CDC2E0A005FC2FF /* TBCellDecorators */,
 				1A847A061CDB1CBD00C70F03 /* TBCalendar */,
 			);
@@ -795,6 +813,7 @@
 				1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */,
 				1AE722551CE9D352002EDD08 /* UIView+Add.m in Sources */,
 				1A679A731CDC7F05005FC2FF /* TBMeVC.m in Sources */,
+				1AE31D511CF54F660046339D /* CLLocation+Add.m in Sources */,
 				1A2CF3C81CE451AD00D37CFF /* Record+CoreDataProperties.m in Sources */,
 				1AE7223E1CE9CC19002EDD08 /* TBI18nCountry.m in Sources */,
 				1A2CF3CA1CE451AD00D37CFF /* Book+CoreDataProperties.m in Sources */,
@@ -816,6 +835,7 @@
 				1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */,
 				41EAD9111CC7AB9800D3C0B9 /* TBFirstGuideCollectionViewCell.m in Sources */,
 				1AE722521CE9D2DF002EDD08 /* UIScrollView+Add.m in Sources */,
+				1AE31D551CF57DFE0046339D /* TBImagePopUpView.m in Sources */,
 				1A847A481CDB3C9400C70F03 /* TBViewController.m in Sources */,
 				1A679A711CDC7F05005FC2FF /* TBBookListVC.m in Sources */,
 				1AE7224F1CE9CDD9002EDD08 /* NSString+Add.m in Sources */,
