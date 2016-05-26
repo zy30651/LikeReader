@@ -15,6 +15,8 @@
 		1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C71CE451AD00D37CFF /* Info.m */; };
 		1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3D01CE4541200D37CFF /* BookManager.m */; };
 		1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A468B621CEC374200E1C59E /* NSURL+Add.m */; };
+		1A5B4EDC1CF6942B00915F47 /* TBImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */; };
+		1A5B4EDF1CF6A70E00915F47 /* TBPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */; };
 		1A679A511CDC2E28005FC2FF /* TBCellDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */; };
 		1A679A541CDC2E61005FC2FF /* TBCellCheckboxDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A531CDC2E61005FC2FF /* TBCellCheckboxDecorator.m */; };
 		1A679A711CDC7F05005FC2FF /* TBBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A5E1CDC7F05005FC2FF /* TBBookListVC.m */; };
@@ -86,6 +88,10 @@
 		1A2CF3D01CE4541200D37CFF /* BookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookManager.m; sourceTree = "<group>"; };
 		1A468B611CEC374200E1C59E /* NSURL+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Add.h"; sourceTree = "<group>"; };
 		1A468B621CEC374200E1C59E /* NSURL+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Add.m"; sourceTree = "<group>"; };
+		1A5B4EDA1CF6942B00915F47 /* TBImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBImageBrowser.h; sourceTree = "<group>"; };
+		1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBImageBrowser.m; sourceTree = "<group>"; };
+		1A5B4EDD1CF6A70E00915F47 /* TBPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPhotoGroupView.h; sourceTree = "<group>"; };
+		1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPhotoGroupView.m; sourceTree = "<group>"; };
 		1A679A4F1CDC2E28005FC2FF /* TBCellDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellDecorator.h; sourceTree = "<group>"; };
 		1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCellDecorator.m; sourceTree = "<group>"; };
 		1A679A521CDC2E61005FC2FF /* TBCellCheckboxDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellCheckboxDecorator.h; sourceTree = "<group>"; };
@@ -419,6 +425,10 @@
 			children = (
 				1AE31D531CF57DFE0046339D /* TBImagePopUpView.h */,
 				1AE31D541CF57DFE0046339D /* TBImagePopUpView.m */,
+				1A5B4EDA1CF6942B00915F47 /* TBImageBrowser.h */,
+				1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */,
+				1A5B4EDD1CF6A70E00915F47 /* TBPhotoGroupView.h */,
+				1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */,
 			);
 			path = TBImageView;
 			sourceTree = "<group>";
@@ -827,12 +837,14 @@
 				1A679A751CDC7F05005FC2FF /* TBSearchBookVC.m in Sources */,
 				1AE7224E1CE9CDD9002EDD08 /* MBProgressHUD+Add.m in Sources */,
 				1A847A0B1CDB1CBD00C70F03 /* TBCalendarCell.m in Sources */,
+				1A5B4EDF1CF6A70E00915F47 /* TBPhotoGroupView.m in Sources */,
 				1A2CF3CC1CE451AD00D37CFF /* Info+CoreDataProperties.m in Sources */,
 				1A847A451CDB3C9400C70F03 /* TBCollectionViewController.m in Sources */,
 				1A679A791CDC7F2E005FC2FF /* Model.xcdatamodeld in Sources */,
 				41EAD8271CC7AB9800D3C0B9 /* UIDevice+deviceString.m in Sources */,
 				1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */,
 				1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */,
+				1A5B4EDC1CF6942B00915F47 /* TBImageBrowser.m in Sources */,
 				41EAD9111CC7AB9800D3C0B9 /* TBFirstGuideCollectionViewCell.m in Sources */,
 				1AE722521CE9D2DF002EDD08 /* UIScrollView+Add.m in Sources */,
 				1AE31D551CF57DFE0046339D /* TBImagePopUpView.m in Sources */,
