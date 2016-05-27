@@ -16,7 +16,7 @@
 //    YYPhotoGroupItem *item = [YYPhotoGroupItem new];
 //    item.thumbView = imgView;
 //    item.largeImageURL = img.mediaLarge.url;
-//    item.largeImageSize = img.mediaLarge.size;
+//    item.largeImageSize = z;
 //    [items addObject:item];
 //    if (i == index) {
 //        fromView = imgView;

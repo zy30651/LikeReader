@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern long long const distantPastInMilliseconds;
+
 @interface NSString (Add)
 
 /**
@@ -30,8 +32,9 @@
 - (NSString *)firstLowerCaseLetterString;
 
 
-
 - (BOOL)isValidateWithPredicstring:(NSString *)predicStr;
 
 - (BOOL)isValidateEmail;
+
+- (long long) toMilliseconds;
 @end

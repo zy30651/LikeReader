@@ -17,6 +17,8 @@
 		1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A468B621CEC374200E1C59E /* NSURL+Add.m */; };
 		1A5B4EDC1CF6942B00915F47 /* TBImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */; };
 		1A5B4EDF1CF6A70E00915F47 /* TBPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */; };
+		1A5C38BE1CF7EEE80009AD2A /* TBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C38BD1CF7EEE80009AD2A /* TBLocationManager.m */; };
+		1A5C38C11CF7F7620009AD2A /* TBI18nRegions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C38C01CF7F7620009AD2A /* TBI18nRegions.m */; };
 		1A679A511CDC2E28005FC2FF /* TBCellDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */; };
 		1A679A541CDC2E61005FC2FF /* TBCellCheckboxDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A531CDC2E61005FC2FF /* TBCellCheckboxDecorator.m */; };
 		1A679A711CDC7F05005FC2FF /* TBBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A679A5E1CDC7F05005FC2FF /* TBBookListVC.m */; };
@@ -38,6 +40,8 @@
 		1A847A471CDB3C9400C70F03 /* TBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A411CDB3C9400C70F03 /* TBTableViewController.m */; };
 		1A847A481CDB3C9400C70F03 /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A431CDB3C9400C70F03 /* TBViewController.m */; };
 		1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847A4A1CDB3CA600C70F03 /* TBCell.m */; };
+		1A84E7EC1CF8446C008C81ED /* NSDictionary+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84E7EB1CF8446C008C81ED /* NSDictionary+Add.m */; };
+		1A84E7EF1CF846FA008C81ED /* NSDate+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84E7EE1CF846FA008C81ED /* NSDate+Add.m */; };
 		1A89FBBF1CEB26F3007AC154 /* countrycode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A89FBBE1CEB26F3007AC154 /* countrycode.plist */; };
 		1AD7394A1CF30FAB006C71F7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD739491CF30FAB006C71F7 /* AdSupport.framework */; };
 		1AE31D511CF54F660046339D /* CLLocation+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE31D501CF54F660046339D /* CLLocation+Add.m */; };
@@ -92,6 +96,10 @@
 		1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBImageBrowser.m; sourceTree = "<group>"; };
 		1A5B4EDD1CF6A70E00915F47 /* TBPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPhotoGroupView.h; sourceTree = "<group>"; };
 		1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPhotoGroupView.m; sourceTree = "<group>"; };
+		1A5C38BC1CF7EEE80009AD2A /* TBLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBLocationManager.h; sourceTree = "<group>"; };
+		1A5C38BD1CF7EEE80009AD2A /* TBLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBLocationManager.m; sourceTree = "<group>"; };
+		1A5C38BF1CF7F7620009AD2A /* TBI18nRegions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBI18nRegions.h; sourceTree = "<group>"; };
+		1A5C38C01CF7F7620009AD2A /* TBI18nRegions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBI18nRegions.m; sourceTree = "<group>"; };
 		1A679A4F1CDC2E28005FC2FF /* TBCellDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellDecorator.h; sourceTree = "<group>"; };
 		1A679A501CDC2E28005FC2FF /* TBCellDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCellDecorator.m; sourceTree = "<group>"; };
 		1A679A521CDC2E61005FC2FF /* TBCellCheckboxDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCellCheckboxDecorator.h; sourceTree = "<group>"; };
@@ -131,6 +139,10 @@
 		1A847A431CDB3C9400C70F03 /* TBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
 		1A847A491CDB3CA600C70F03 /* TBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCell.h; sourceTree = "<group>"; };
 		1A847A4A1CDB3CA600C70F03 /* TBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCell.m; sourceTree = "<group>"; };
+		1A84E7EA1CF8446C008C81ED /* NSDictionary+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Add.h"; sourceTree = "<group>"; };
+		1A84E7EB1CF8446C008C81ED /* NSDictionary+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Add.m"; sourceTree = "<group>"; };
+		1A84E7ED1CF846FA008C81ED /* NSDate+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Add.h"; sourceTree = "<group>"; };
+		1A84E7EE1CF846FA008C81ED /* NSDate+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Add.m"; sourceTree = "<group>"; };
 		1A89FBBE1CEB26F3007AC154 /* countrycode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countrycode.plist; sourceTree = "<group>"; };
 		1AD739491CF30FAB006C71F7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1AE31D4F1CF54F660046339D /* CLLocation+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+Add.h"; sourceTree = "<group>"; };
@@ -215,6 +227,15 @@
 				1A2CF3D01CE4541200D37CFF /* BookManager.m */,
 			);
 			path = ServerAccess;
+			sourceTree = "<group>";
+		};
+		1A5C38BB1CF7EECF0009AD2A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				1A5C38BC1CF7EEE80009AD2A /* TBLocationManager.h */,
+				1A5C38BD1CF7EEE80009AD2A /* TBLocationManager.m */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		1A679A4E1CDC2E0A005FC2FF /* TBCellDecorators */ = {
@@ -442,6 +463,8 @@
 				1AE722371CE9CC19002EDD08 /* TBI18nCountry.m */,
 				1AE722381CE9CC19002EDD08 /* TBI18nUserSettings.h */,
 				1AE722391CE9CC19002EDD08 /* TBI18nUserSettings.m */,
+				1A5C38BF1CF7F7620009AD2A /* TBI18nRegions.h */,
+				1A5C38C01CF7F7620009AD2A /* TBI18nRegions.m */,
 			);
 			name = i18n;
 			path = i18n/i18n;
@@ -462,6 +485,10 @@
 				1A468B621CEC374200E1C59E /* NSURL+Add.m */,
 				1AE31D4F1CF54F660046339D /* CLLocation+Add.h */,
 				1AE31D501CF54F660046339D /* CLLocation+Add.m */,
+				1A84E7EA1CF8446C008C81ED /* NSDictionary+Add.h */,
+				1A84E7EB1CF8446C008C81ED /* NSDictionary+Add.m */,
+				1A84E7ED1CF846FA008C81ED /* NSDate+Add.h */,
+				1A84E7EE1CF846FA008C81ED /* NSDate+Add.m */,
 			);
 			path = "Category+Add";
 			sourceTree = "<group>";
@@ -547,6 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE722481CE9CDD9002EDD08 /* Category+Add */,
+				1A5C38BB1CF7EECF0009AD2A /* Location */,
 				1A89FBBD1CEB26B1007AC154 /* Country */,
 				1AE722311CE9CC19002EDD08 /* i18n */,
 				41EAD5C01CC7AB9700D3C0B9 /* Other */,
@@ -828,7 +856,9 @@
 				1AE7223E1CE9CC19002EDD08 /* TBI18nCountry.m in Sources */,
 				1A2CF3CA1CE451AD00D37CFF /* Book+CoreDataProperties.m in Sources */,
 				1A679A511CDC2E28005FC2FF /* TBCellDecorator.m in Sources */,
+				1A84E7EF1CF846FA008C81ED /* NSDate+Add.m in Sources */,
 				1A2CF3C91CE451AD00D37CFF /* Record.m in Sources */,
+				1A84E7EC1CF8446C008C81ED /* NSDictionary+Add.m in Sources */,
 				1AE7223F1CE9CC19002EDD08 /* TBI18nUserSettings.m in Sources */,
 				41EAD9081CC7AB9800D3C0B9 /* TBTabbarVC.m in Sources */,
 				1A2CF3CB1CE451AD00D37CFF /* Book.m in Sources */,
@@ -843,6 +873,7 @@
 				1A679A791CDC7F2E005FC2FF /* Model.xcdatamodeld in Sources */,
 				41EAD8271CC7AB9800D3C0B9 /* UIDevice+deviceString.m in Sources */,
 				1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */,
+				1A5C38BE1CF7EEE80009AD2A /* TBLocationManager.m in Sources */,
 				1A847A4B1CDB3CA600C70F03 /* TBCell.m in Sources */,
 				1A5B4EDC1CF6942B00915F47 /* TBImageBrowser.m in Sources */,
 				41EAD9111CC7AB9800D3C0B9 /* TBFirstGuideCollectionViewCell.m in Sources */,
@@ -854,6 +885,7 @@
 				1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */,
 				1A847A471CDB3C9400C70F03 /* TBTableViewController.m in Sources */,
 				41EAD9101CC7AB9800D3C0B9 /* TBFirstGuideVC.m in Sources */,
+				1A5C38C11CF7F7620009AD2A /* TBI18nRegions.m in Sources */,
 				41EAD90E1CC7AB9800D3C0B9 /* TBFirstGuideStep2VC.m in Sources */,
 				41EAD90D1CC7AB9800D3C0B9 /* TBFirstGuideStep1VC.m in Sources */,
 				1A847A0C1CDB1CBD00C70F03 /* TBCalendarView.m in Sources */,

@@ -12,4 +12,8 @@
 #import "UIScrollView+Add.h"
 #import "NSString+Add.h"
 #import "MBProgressHUD+Add.h"
+#import "NSDate+Add.h"
+#import "NSDictionary+Add.h"
+#import "CLLocation+Add.h"
+#import "NSURL+Add.h"
 

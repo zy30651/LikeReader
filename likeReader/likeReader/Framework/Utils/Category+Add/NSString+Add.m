@@ -8,6 +8,8 @@
 
 #import "NSString+Add.h"
 
+long long const distantPastInMilliseconds = -7000000000000;
+
 @implementation NSString (Add)
 
 - (BOOL)isChineseChar{
@@ -47,5 +49,14 @@
 {
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     return [self isValidateWithPredicstring:emailRegex];
+}
+
+-(long long) toMilliseconds
+{
+    if (0 == self.length)
+    {
+        return distantPastInMilliseconds;
+    }
+    return [self longLongValue];
 }
 @end
