@@ -15,6 +15,8 @@
 		1A2CF3CD1CE451AD00D37CFF /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3C71CE451AD00D37CFF /* Info.m */; };
 		1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2CF3D01CE4541200D37CFF /* BookManager.m */; };
 		1A468B631CEC374200E1C59E /* NSURL+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A468B621CEC374200E1C59E /* NSURL+Add.m */; };
+		1A547F071D016B1200681B58 /* TBActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A547F061D016B1200681B58 /* TBActivity.m */; };
+		1A547F0A1D016BA500681B58 /* TBCameraActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A547F091D016BA500681B58 /* TBCameraActivity.m */; };
 		1A5B4EDC1CF6942B00915F47 /* TBImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */; };
 		1A5B4EDF1CF6A70E00915F47 /* TBPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B4EDE1CF6A70E00915F47 /* TBPhotoGroupView.m */; };
 		1A5C38BE1CF7EEE80009AD2A /* TBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C38BD1CF7EEE80009AD2A /* TBLocationManager.m */; };
@@ -92,6 +94,10 @@
 		1A2CF3D01CE4541200D37CFF /* BookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookManager.m; sourceTree = "<group>"; };
 		1A468B611CEC374200E1C59E /* NSURL+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Add.h"; sourceTree = "<group>"; };
 		1A468B621CEC374200E1C59E /* NSURL+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Add.m"; sourceTree = "<group>"; };
+		1A547F051D016B1200681B58 /* TBActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBActivity.h; path = Camera/TBActivity.h; sourceTree = "<group>"; };
+		1A547F061D016B1200681B58 /* TBActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBActivity.m; path = Camera/TBActivity.m; sourceTree = "<group>"; };
+		1A547F081D016BA500681B58 /* TBCameraActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCameraActivity.h; path = Camera/TBCameraActivity.h; sourceTree = "<group>"; };
+		1A547F091D016BA500681B58 /* TBCameraActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBCameraActivity.m; path = Camera/TBCameraActivity.m; sourceTree = "<group>"; };
 		1A5B4EDA1CF6942B00915F47 /* TBImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBImageBrowser.h; sourceTree = "<group>"; };
 		1A5B4EDB1CF6942B00915F47 /* TBImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBImageBrowser.m; sourceTree = "<group>"; };
 		1A5B4EDD1CF6A70E00915F47 /* TBPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPhotoGroupView.h; sourceTree = "<group>"; };
@@ -227,6 +233,17 @@
 				1A2CF3D01CE4541200D37CFF /* BookManager.m */,
 			);
 			path = ServerAccess;
+			sourceTree = "<group>";
+		};
+		1A547F041D016ADC00681B58 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				1A547F051D016B1200681B58 /* TBActivity.h */,
+				1A547F061D016B1200681B58 /* TBActivity.m */,
+				1A547F081D016BA500681B58 /* TBCameraActivity.h */,
+				1A547F091D016BA500681B58 /* TBCameraActivity.m */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		1A5C38BB1CF7EECF0009AD2A /* Location */ = {
@@ -626,6 +643,7 @@
 		41EAD7B81CC7AB9800D3C0B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1A547F041D016ADC00681B58 /* Camera */,
 				1AE31D521CF57DE00046339D /* TBImageView */,
 				1A679A4E1CDC2E0A005FC2FF /* TBCellDecorators */,
 				1A847A061CDB1CBD00C70F03 /* TBCalendar */,
@@ -845,11 +863,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41EAD8261CC7AB9800D3C0B9 /* SvUDIDTools.m in Sources */,
+				1A547F0A1D016BA500681B58 /* TBCameraActivity.m in Sources */,
 				1A679A721CDC7F05005FC2FF /* TBCellBookList.m in Sources */,
 				41EAD9071CC7AB9800D3C0B9 /* TBNavigationVC.m in Sources */,
 				41EAD9061CC7AB9800D3C0B9 /* AppDelegate.m in Sources */,
 				1A2CF3D11CE4541200D37CFF /* BookManager.m in Sources */,
 				1AE722551CE9D352002EDD08 /* UIView+Add.m in Sources */,
+				1A547F071D016B1200681B58 /* TBActivity.m in Sources */,
 				1A679A731CDC7F05005FC2FF /* TBMeVC.m in Sources */,
 				1AE31D511CF54F660046339D /* CLLocation+Add.m in Sources */,
 				1A2CF3C81CE451AD00D37CFF /* Record+CoreDataProperties.m in Sources */,

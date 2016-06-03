@@ -26,6 +26,9 @@ PODS:
   - JSPatch/Core (1.0)
   - libPhoneNumber-iOS (0.8.12)
   - libqrencode (3.4.2)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
   - Masonry (1.0.0)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.0)
@@ -55,6 +58,7 @@ DEPENDENCIES:
   - JSPatch
   - libPhoneNumber-iOS
   - libqrencode
+  - MagicalRecord
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -77,6 +81,7 @@ SPEC CHECKSUMS:
   JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
   libPhoneNumber-iOS: 3f1889b70403cf7848c0e4136780a0d0aef9016d
   libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
@@ -89,6 +94,6 @@ SPEC CHECKSUMS:
   YYKit: f2654fe525de2283648db957bddb37ddd8e06549
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 086da293bfb462140866b7216a14805f43c91c94
+PODFILE CHECKSUM: 80f1536fc03ec8fd5c1e65ef586c0f413099e5df
 
 COCOAPODS: 1.0.0

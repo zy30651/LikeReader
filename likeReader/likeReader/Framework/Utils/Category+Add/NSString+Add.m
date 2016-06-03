@@ -27,6 +27,14 @@ long long const distantPastInMilliseconds = -7000000000000;
     NSString* flc = [fl capitalizedString];
     NSMutableString *ms = [NSMutableString stringWithString:self];
     [ms replaceCharactersInRange:flRange withString:flc];
+    UIButton *btn  = [[UIButton alloc]init];
+    [btn addBlockForControlEvents:UIControlEventTouchUpInside block:^(id  _Nonnull sender) {
+        
+    }];
+    [btn setBlockForControlEvents:UIControlEventTouchUpInside block:^(id  _Nonnull sender) {
+        
+    }];
+    
     return ms;
 }
 

@@ -25,6 +25,7 @@ pod 'FDFullscreenPopGesture'
 pod 'UMengSocialCOM'
 pod 'UMengAnalytics'
 pod 'INTULocationManager'
-pod 'UAProgressView'
+pod 'UAProgressView' 
+pod 'MagicalRecord'
 
 end
