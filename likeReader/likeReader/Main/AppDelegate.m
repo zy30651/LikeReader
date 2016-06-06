@@ -44,19 +44,19 @@
 //    }];
 
     //这是INTULocationManager框架，有更新，具体用法没有变化
-    INTULocationManager *mgr = [INTULocationManager sharedInstance];
-    [mgr requestLocationWithDesiredAccuracy:INTULocationAccuracyBlock
-                                    timeout:3.0
-                       delayUntilAuthorized:YES
-                                      block:^(CLLocation *currentLocation, INTULocationAccuracy achievedAccuracy, INTULocationStatus status) {
-                                          if (status == INTULocationStatusSuccess) {
-                                              
-                                          }else if (status == INTULocationStatusTimedOut){
-                                              
-                                          }else{
-                                              
-                                          }
-                                      }];
+//    INTULocationManager *mgr = [INTULocationManager sharedInstance];
+//    [mgr requestLocationWithDesiredAccuracy:INTULocationAccuracyBlock
+//                                    timeout:3.0
+//                       delayUntilAuthorized:YES
+//                                      block:^(CLLocation *currentLocation, INTULocationAccuracy achievedAccuracy, INTULocationStatus status) {
+//                                          if (status == INTULocationStatusSuccess) {
+//                                              
+//                                          }else if (status == INTULocationStatusTimedOut){
+//                                              
+//                                          }else{
+//                                              
+//                                          }
+//                                      }];
     
     
     

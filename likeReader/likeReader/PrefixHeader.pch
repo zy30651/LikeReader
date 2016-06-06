@@ -27,6 +27,7 @@
 #import "TBUtils.h"
 #import "TBCommon.h"
 #import "category+Add.h"
+#import "TBShowHUD.h"
 
 #endif
 

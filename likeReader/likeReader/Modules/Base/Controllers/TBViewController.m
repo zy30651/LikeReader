@@ -8,6 +8,7 @@
 #import "MBProgressHUD.h"
 #import "TBViewController.h"
 
+
 @interface TBViewController ()<MBProgressHUDDelegate>
 {
     MBProgressHUD __weak *_hud;
@@ -28,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     _appearanceCount = 0;
     _timeLastDataRefresh = nil;
     
