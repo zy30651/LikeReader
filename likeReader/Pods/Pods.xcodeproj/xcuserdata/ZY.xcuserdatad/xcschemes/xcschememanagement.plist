@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CTAssetsPickerController-CTAssetsPickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CTAssetsPickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CYLDeallocBlockExecutor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -69,6 +79,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -117,11 +132,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>21988556A3757C0BEE77885879F03E25</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>23CF27B2BA6AC7125EFFEDA8C5AA819F</key>
 		<dict>
 			<key>primary</key>
@@ -133,6 +143,21 @@
 			<true/>
 		</dict>
 		<key>3A7FA4954F932FC5768A0509BD9CAE96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F82F847C245F43F277105B9E313139D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4EA8E70647CF476DC56BB1C83EC3F6DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F3BB89410B266932FA17B59F4877656</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,7 +177,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6164B5C9DB6141444037182A7BD94126</key>
+		<key>5E6B7B71A52651B4BEFB801044060547</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -162,7 +187,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8169C64033B9A6359D4D83EF678B9F2F</key>
+		<key>711696F71B7B0CCC016EB3E445604D68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A91E72F900A504FB2D08200BBDBCA8C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -173,11 +203,6 @@
 			<true/>
 		</dict>
 		<key>A9A83F63385AA43314397B8DD375464B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AEEEEB81FDAA58095C5AB33FF8E876CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -197,12 +222,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D7A6DDB0B234401EEDC35C3DF1A83376</key>
+		<key>DCDF5DEE6F9D12C1A315E71577A86F55</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9BB39508EBAF0EF409275574F82834E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

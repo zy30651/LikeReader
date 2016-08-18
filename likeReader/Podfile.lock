@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
   - CYLDeallocBlockExecutor (1.0.0)
   - FDFullscreenPopGesture (1.1)
   - FMDB (2.6.2):
@@ -34,6 +36,7 @@ PODS:
   - MJRefresh (3.1.0)
   - MKNetworkKit (0.85):
     - Reachability (~> 3.0)
+  - PureLayout (3.0.1)
   - Reachability (3.2)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
@@ -50,6 +53,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CTAssetsPickerController
   - CYLDeallocBlockExecutor
   - FDFullscreenPopGesture
   - FMDB
@@ -73,6 +77,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
   CYLDeallocBlockExecutor: 13dc997661100052ed24bb918fcc65e8535af59d
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
@@ -86,6 +91,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   MKNetworkKit: 1171bfac5c3a1cd7fea9a027f29359e1b4cab705
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   UAProgressView: ce49aee47c14df6dc372f6fd57852f570ca97e6b
@@ -94,6 +100,6 @@ SPEC CHECKSUMS:
   YYKit: f2654fe525de2283648db957bddb37ddd8e06549
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 80f1536fc03ec8fd5c1e65ef586c0f413099e5df
+PODFILE CHECKSUM: 64af83928d5bf056477d5ff215d105cebe7c9301
 
 COCOAPODS: 1.0.0

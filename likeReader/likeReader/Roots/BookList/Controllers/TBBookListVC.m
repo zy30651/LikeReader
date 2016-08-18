@@ -17,19 +17,36 @@
     
     self.navigationItem.rightBarButtonItem = [TBUtils barButtonWithTitle:@"管理" withTarget:self andSel:@selector(managerBooks)];
 }
-
+-(void)performViewDidLoadSequence{
+    [super performViewDidLoadSequence];
+    self.tableView.top = 10;
+    self.tableView.backgroundColor = [UIColor grayColor];
+}
 -(void)registerCellClasses{
     [self.tableView registerClass:[TBCellBookList class] forCellReuseIdentifier:[TBCellBookList cellId]];
 }
 
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 10;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return [TBCellBookList heightForCell];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     TBCellBookList *cell = [tableView dequeueReusableCellWithIdentifier:[TBCellBookList cellId]];
+    UIView *marginView = [[UIView alloc]init];
+    marginView.backgroundColor = [UIColor redColor];
+    [cell.contentView addSubview:marginView];
+    [cell.contentView sendSubviewToBack:marginView];
+    
     return cell;
 }
+
 
 #pragma mark - Action
 - (void)managerBooks{

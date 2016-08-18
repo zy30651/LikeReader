@@ -27,5 +27,6 @@ pod 'UMengAnalytics'
 pod 'INTULocationManager'
 pod 'UAProgressView' 
 pod 'MagicalRecord'
+pod 'CTAssetsPickerController'
 
 end
